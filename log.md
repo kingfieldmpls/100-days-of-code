@@ -18,10 +18,10 @@
 * Started Courera's University of Michigan Python Course - Course 3: Using Python to Access the Web: Weeks 1 and 2
 
 **Thoughts**
-* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. Figured out the difference between list.sort() and sorted() and really enjoyed watching interviews with the creators of jQuery and C++ and the "discoverer" of JSON.
-
+* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. 
+* Figured out the difference between list.sort() and sorted()
+* Really enjoyed watching interviews with the creators of jQuery and C++ and the "discoverer" of JSON.
 * Also learned about "greedy" and "non-greedy" regex statements
-
 * This part of the tutorial is still feeling relatively easy, though it takes me a minute to complete the exercises, especially the "just for fun" exercise which involved list comprehensions. Amazing, but for some reason sort of mind bending.
 
 **Questions** 
