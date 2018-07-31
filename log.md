@@ -33,6 +33,21 @@
 * [Day 2 Exercises](exercises/day2.py)
 * [More Day 2 Exercises](exercises/day2a.py)
 
+### Day 3: July 30th, 2018 - Monday
+
+**Today's Progress**: 
+* Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
+
+**Thoughts**
+* Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit how. 
+* Networking still confuses the hell out of me. I think it's largely a vocabulary issue. I want to unlock the mysteries, but I also question the usefulness considering how many amazing shortcuts already exist to do the tasks we want to do.
+
+**Questions**
+* What's the simplest way to grab HTTP headers in Python? urllib? requests?
+
+**Link(s) to work**
+[Day 3 Exercises](exercises/day3.py)
+
 ### Day X:
 **Today's Progress**: 
 **Thoughts**
