@@ -48,6 +48,25 @@
 **Link(s) to work**
 [Day 3 Exercises](exercises/day3.py)
 
+### Day 4: July 31st, 2018 - Tuesday
+
+**Today's Progress**: 
+* Completed the lectures, quiz and one of the two activities for "Using Python to Access Web Data"
+* I'll need to finish up the second example and then reviewing to take any other questions down and make sure I understand what it is I'm doing.
+
+**Thoughts**
+* Today was a long day, and it was hard to muster the gumption to put in the time starting shortly before 11pm. I think it was worth it? I mean, I enjoyed doing the activity, but morning comes at the same time regardless of when I go to bed.
+* Things are starting to get really fun. Grabbing data from the web is such a practical and powerful skill. I can't wait to start using Beautiful Soup in my own projects.
+
+**Questions** 
+* What's the standard to deciding exactly how to import a library or module - especially when it just comes to how you'll call the module, no necessarily how many modules you're loading
+* How many sites really have scraping policies? Where is that info kept? Is it ethical to write a spider to check for scraping policies?
+* I didn't understand the import SSL bit from the example
+
+**Link(s) to work**
+[Day 4 Exercises](exercises/day4.py)
+[More Day 4 Exercises](exercises/day4a.py)
+
 ### Day X:
 **Today's Progress**: 
 **Thoughts**
