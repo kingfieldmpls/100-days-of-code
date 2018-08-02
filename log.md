@@ -46,7 +46,7 @@
 * What's the simplest way to grab HTTP headers in Python? urllib? requests?
 
 **Link(s) to work**
-[Day 3 Exercises](exercises/day3.py)
+* [Day 3 Exercises](exercises/day3.py)
 
 ### Day 4: July 31st, 2018 - Tuesday
 
@@ -64,8 +64,24 @@
 * I didn't understand the import SSL bit from the example
 
 **Link(s) to work**
-[Day 4 Exercises](exercises/day4.py)
-[More Day 4 Exercises](exercises/day4a.py)
+* [Day 4 Exercises](exercises/day4.py)
+* [More Day 4 Exercises](exercises/day4a.py)
+
+### Day X:
+**Today's Progress**: 
+* Completed BeautifulSoup activities from "Using Python to Access Web Data"
+* Completed the XML chapter from "Using Pything to Access Web Data"
+
+**Thoughts**
+* Still having lots of fun. It's really easy to stay up too late. BeautifulSoup is lots of fun and it was a sort of boring right turn to parsing XML. I've used Xpath in the path, so I see the use, but I'm excited to get to JSON tomorrow.
+* I refactored my sample code using with and enumerate to shorten the code and be more Pythonic. That felt really good.
+
+**Questions** 
+* What is the full syntax is XPath? Is it a lot easier than just formally walking the whole tree?
+
+**Link(s) to work**
+* [Day 5 Exercises](exercises/day5.py)
+* [More Day 5 Exercises](exercises/day5a.py)
 
 ### Day X:
 **Today's Progress**: 
