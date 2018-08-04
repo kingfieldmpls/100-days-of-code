@@ -67,7 +67,7 @@
 * [Day 4 Exercises](exercises/day4.py)
 * [More Day 4 Exercises](exercises/day4a.py)
 
-### Day X:
+### Day 5, August 1st, 2018 - Wednesday:
 **Today's Progress**: 
 * Completed BeautifulSoup activities from "Using Python to Access Web Data"
 * Completed the XML chapter from "Using Pything to Access Web Data"
@@ -82,6 +82,38 @@
 **Link(s) to work**
 * [Day 5 Exercises](exercises/day5.py)
 * [More Day 5 Exercises](exercises/day5a.py)
+
+### Day 6, August 2nd, 2018 - Thursday
+
+**Today's Progress**: 
+* Finished course 3 "Using Python to Access Web Data" in the Coursera Python speciality. 
+
+**Thoughts**
+* Really similar exerises as yesterday, except working with JSON instead of XML. It makes a lots of sense traversing series of dictionaries and lists in the json.dumps() object if you can read the JSON somewhere. 
+* This course definitely started to enter the realm of the practical. It seems like for most applications you really don't need to know all that much about the libraries - there are just a few key methods that do 90% of the work.
+* Sleep continues to be a thing that there is less of. I'm really enjoying this time, but there wasn't really free time per se, so I'm just paying for this course in fewer hours slept.
+
+**Questions**
+* OOP is still a huge question in terms of how it actually shakes out in Python land. Also, how do I get enough practical experience without coding for my job to learn the nuance, norms and intrigue of the language?
+
+**Link(s) to work**
+* [Day 6 Exercises](exercises/day6.py)
+* [More Day 6 Exercises](exercises/day6a.py)
+
+### Day 7, August 2nd, 2018 - Friday:
+
+**Today's Progress**: 
+* Completed chapter 1 and part of chapter 2 of "Using Databases with Pythong"
+
+**Thoughts**
+* I actually completed this chapter's month's ago. Dr. Chuck's 15 minute video explaining object oriented programming was an actual breakthrough for me the first time a watched it earlier this year. It was neat to revisit and reflect on how these concepts have crystallized over time, and how hard things become known things relatively quickly if you can avoid the frustration of not fully understanding each new concept you encounter right away.
+
+**Questions** 
+* There is still A LOT I don't understand about OOP from a practical, functional level.
+* I also don't really understand namespaces or what __init__ ought to be used for when creating a class. I mean, I understand it, but my brain isn't naturally thinking like that yet.
+
+**Link(s) to work**
+* The code I wrote today was for work. I think that's technically against the rules? It was one of those things where I was very confident it would work how I expected. It didn't. There were all sorts of modules in this SDK I was using that weren't updated to the latest version of the API and they weren't helping matters much. In the end I got it to work but I don't really understand how. The agony. The ecstasy.
 
 ### Day X:
 **Today's Progress**: 
