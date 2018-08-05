@@ -115,6 +115,22 @@
 **Link(s) to work**
 * The code I wrote today was for work. I think that's technically against the rules? It was one of those things where I was very confident it would work how I expected. It didn't. There were all sorts of modules in this SDK I was using that weren't updated to the latest version of the API and they weren't helping matters much. In the end I got it to work but I don't really understand how. The agony. The ecstasy.
 
+### Day 8, August 3rd, 2018 - Saturday:
+
+**Today's Progress**: 
+* Completed the "Basic SQL" portion of Coursera's "Python for Everybody".
+
+**Thoughts**
+* I honestly don't remember doing the exercise for this chapter, but apparently I did successfully complete it earlier this year. What's crazy is we have code exactly like this example in prodution at work now, and it's so interesting to come back with the context of seeing how this application actually get put to use in the real world. I've also learned more about SQL injection attacks since watching this video the first time, which helps explain some of the wildcard insertions. 
+
+* I also feel like this chapter is a significant increase in difficulty compared to previous chapters. You're also not expected to really produce much original code. If you can read the example, you can fairly easily modify it to work. It's reinforcing spaghetti code, which isn't what I need right now. Ha!
+
+**Questions**
+* I want to come back and work through the Twitter spider example at some point in the future. It wasn't required for the course so I moved on.
+
+**Link(s) to work**
+* [Day 8 Exercises](exercises/day8.py)
+
 ### Day X:
 **Today's Progress**: 
 **Thoughts**
