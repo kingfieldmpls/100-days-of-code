@@ -131,6 +131,21 @@
 **Link(s) to work**
 * [Day 8 Exercises](exercises/day8.py)
 
+### Day 9, August 4th, 2018 - Sunday:
+
+**Today's Progress**: 
+* Completed the second SQL chapter from "Python for Everybody" - minus the db example.
+
+**Thoughts**
+* I've finally made it back to where I initially started. Definitely feel a little smarter than the first time around, but also have more questions.
+
+**Questions** 
+* When is a project so small where you shouldn't worry about duplcating strings?
+
+**Link(s) to work**
+* No Python to show, just some things in the DB Browser for SQLite.
+
+
 ### Day X:
 **Today's Progress**: 
 **Thoughts**
