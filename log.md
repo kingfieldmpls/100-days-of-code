@@ -100,7 +100,7 @@
 * [Day 6 Exercises](exercises/day6.py)
 * [More Day 6 Exercises](exercises/day6a.py)
 
-### Day 7, August 2nd, 2018 - Friday:
+### Day 7, August 3rd, 2018 - Friday:
 
 **Today's Progress**: 
 * Completed chapter 1 and part of chapter 2 of "Using Databases with Pythong"
@@ -115,7 +115,7 @@
 **Link(s) to work**
 * The code I wrote today was for work. I think that's technically against the rules? It was one of those things where I was very confident it would work how I expected. It didn't. There were all sorts of modules in this SDK I was using that weren't updated to the latest version of the API and they weren't helping matters much. In the end I got it to work but I don't really understand how. The agony. The ecstasy.
 
-### Day 8, August 3rd, 2018 - Saturday:
+### Day 8, August 4th, 2018 - Saturday:
 
 **Today's Progress**: 
 * Completed the "Basic SQL" portion of Coursera's "Python for Everybody".
@@ -131,7 +131,7 @@
 **Link(s) to work**
 * [Day 8 Exercises](exercises/day8.py)
 
-### Day 9, August 4th, 2018 - Sunday:
+### Day 9, August 5th, 2018 - Sunday:
 
 **Today's Progress**: 
 * Completed the second SQL chapter from "Python for Everybody" - minus the db example.
@@ -145,6 +145,19 @@
 **Link(s) to work**
 * No Python to show, just some things in the DB Browser for SQLite.
 
+### Day 10, August 6th, 2018 - Monday:
+
+**Today's Progress**: 
+* Completed practical example for Coursera/Python/SQL. 
+
+**Thoughts**
+* Today's assignement more or less begged spaghetti code. It was much easier to make it work quickly that to put it together properly. It met me at a place where I was looking to complete more than put rigor against the process. Today was probably a low point. But we'll see where tomorrow ends up.
+
+**Questions** 
+Need to review the data validation rules for different SQL implementations in order to actually understand how to do this work. I'll need to review this chapter before completing the capstone, I think.
+
+**Link(s) to work**
+* [Day 10 Exercises](exercises/day10.py)
 
 ### Day X:
 **Today's Progress**: 
