@@ -154,10 +154,24 @@
 * Today's assignement more or less begged spaghetti code. It was much easier to make it work quickly that to put it together properly. It met me at a place where I was looking to complete more than put rigor against the process. Today was probably a low point. But we'll see where tomorrow ends up.
 
 **Questions** 
-Need to review the data validation rules for different SQL implementations in order to actually understand how to do this work. I'll need to review this chapter before completing the capstone, I think.
+Need to review the data validation rules for different SQL implementations in order to actually understand how to do this work. I'll need to review this chapter before completing the capstone, I think. One good idea, just redo the chapter 3 assignment, but write the code from scratch, and ignore the sample code.
 
 **Link(s) to work**
 * [Day 10 Exercises](exercises/day10.py)
+
+### Day 11, August 8th, 2018 - Wednesday:
+
+**Today's Progress**: 
+* Complete "Many to Many Relationships in SQL"
+
+**Thoughts**
+* For whatever reason these chapter assignments are getting easier and easier. Too much is already complete in the sample files, and so it's fairly trivial to get them to work to the point where you can satisfy the auto-grader. 
+
+**Questions** 
+* What are all of the SQL conn object commands that you should know? How different are these commands between SQLite and MySQL? Does MariaDB have it's own cursor?
+
+**Link(s) to work**
+* [Day 11 Exercises](exercises/day11.py)
 
 ### Day X:
 **Today's Progress**: 
