@@ -173,6 +173,21 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Day 11 Exercises](exercises/day11.py)
 
+### Day 12, August 9th, 2018 - Thursday:
+
+**Today's Progress**: 
+* Completed course 4, "Using Databases with Python", which just leaves the capstone.
+
+**Thoughts**
+* The challenge level in course 4 was generally very low. I guess maybe there is some incentive to keep completion rates high? Most of the examples took very little tweaking to run properly to complete the assignment. I did try to understand the code by reading it, but it's really not the same as writing it yourself.
+
+**Questions** 
+* How to Redshift and Hadoop work?
+
+**Link(s) to work**
+* [Day 12 Exercises](exercises/day12)
+
+
 ### Day X:
 **Today's Progress**: 
 **Thoughts**
