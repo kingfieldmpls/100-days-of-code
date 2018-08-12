@@ -187,6 +187,20 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Day 12 Exercises](exercises/day12)
 
+### Day 13/14, August 10th/11th, 2018 - Friday/Saturday:
+
+**Today's Progress**: 
+* Man, Fridays are a thing, eh? I crashed hard just after the one hour mark. Completed most of the lectures for the capstone project week 2. 
+
+**Thoughts**
+* Getting to some really interesting concepts with creating a page rank algorithm from scratch. Unfortunately, as has been the case with the last few weeks of classes, they don't really ask enough of the students. The passive feels easier and more passive then some of the much more foundational courses. Nevertheless, trying to read and understand the code did count for something.
+* I was asked to identify my own data source for the optional (read interesting) part of this process. I chose the .gov website for monitoring the flow of the Minnehaha Creek as well as Open Weather API to try to combine data from these two sources and make both historical observations and a predictive model for the future.
+
+**Questions** 
+* I'd like to learn more about both the concept of convergence and graph theory.
+
+**Link(s) to work**
+* [Day 13/14 Exercises](exercises/day13)
 
 ### Day X:
 **Today's Progress**: 
