@@ -202,7 +202,27 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Day 13/14 Exercises](exercises/day13)
 
+### Day 15, August 12th, 2018 - Sunday:
+
+**Today's Progress**: 
+* Ok, now we're starting to have fun. I did complete the "Spidering and Modeling Email Data" chapter, but who seriously cares? Way, way, way too passive. I'm still trying to glean what I can from reading the code and watching the walk through examples, but it's really not super helpful.
+* Began in earnest on my Minnehaha Creek watershed app. This is going to be fun. I read all of the USGS documentation during nap time, and tonight successfully read in and parsed all of the info I need.
+
+**Thoughts**
+* Steps happen slowly, but they do continue to happen. I'm not really getting stuck on anything. The next steps is for me to write all of this data to a database to get ready to start analyzing.
+* I'd also like to include weather forecast data and maybe historical weather data to try to model when conditions will be ideal.
+* Finally, I'll need to visualize the output, so I guess it's back to frontend for me? It feels really weird to leave Python behind for even a moment when I've come this far. I'll have to figure that out as I get there. 
+* I was checking out Treehouse again today, and it looks like there are some good data science tutorials. I think I'll walk through those along with the Google Machine Learning and Coursera Machine Learning courses next. Ah! So many directions to choose from, it's paralyzing.
+* Using count % 50 == 0 is a brilliant way to count interations
+
+**Questions** 
+* Tell me more about Python context managers
+
+**Link(s) to work**
+* [Start of the Minnehaha Creek flow tracker app](exercises/creek)
+
 ### Day X:
+
 **Today's Progress**: 
 **Thoughts**
 **Questions** 
