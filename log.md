@@ -221,6 +221,22 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Start of the Minnehaha Creek flow tracker app](exercises/creek)
 
+### Day 16, August 13th, 2018 - Monday:
+
+**Today's Progress**:
+* Now we're cooking with gas. Minnehaha Creek data from USGS is all plumbed up and writing to the database, and I think all of the functionality I want (pretty much) is there. The one addition might be to look at last updated for the runs. I also would consider refactoring into OOP just for funzies, not because it actually does any work for me.
+* I also identified NOAA as the source of my weather data. It turns out NOAA is the data source behind the national service and they have a fairly robust API available for free. It took quite a bit of time to figure out which values I needed to grab, but I did eventually get it done. I need to work out how pagination is going to work and then I can write everything to the database.
+
+**Thoughts**
+* This shit is really, really fun and addicting.
+
+**Questions**
+* How am I going to run these scripts regularly?
+* Need to figure out linting for PEP8
+
+**Link(s) to work**
+* [Added NOAA weather API data source](exercises/creek)
+
 ### Day X:
 
 **Today's Progress**: 
