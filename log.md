@@ -237,6 +237,29 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Added NOAA weather API data source](exercises/creek)
 
+### Day 17, August 14th, 2018 - Tuesday:
+
+**Today's Progress**: 
+* Got openweather api and dark sky api weather hooked up to the db
+* Spent a lot of time reading about capabilities and different methodologies. It's obvious NOAA rules them all.
+
+**Thoughts**
+* I really need to get my datetimes matched up if I want the hourly data to make any sense
+* Still need to figure out how to model expected rain in terms of what the flow rate will be
+* I'm not sure how to measure snow melt just yet, and that seems to have the biggest impact on flow
+* Mega rain events in MN are fascinating. That was a fun side project.
+* Learned about the UNIX 2038 problem
+
+**Questions** 
+* When is the best time to handle DT conversions?
+* When might I want to use the gzip header
+* How specific should I be in my app headers?
+* Curious about National Weather Service and Dark Sky for forecast data
+* I haven't worked out which I end I want ot use Dark Sky for - I think I'd like to compare forecast data with National Weather Service
+
+**Link(s) to work**
+* [Added Dark Sky weather API data source](exercises/creek)
+
 ### Day X:
 
 **Today's Progress**: 

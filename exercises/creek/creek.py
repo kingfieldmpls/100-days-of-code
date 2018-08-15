@@ -18,6 +18,21 @@
 #
 # Note: Is there a good time of day to retrieve data?
 # Yes.  If possible, we prefer that you retrieve information during "off peak" hours. Midnight to 6 AM Eastern Time is ideal.
+#
+# FLOW	                CREEK CONDITION
+# Less than 75 cfs	    Poor
+# 75 cfs - 150 cfs	    Good
+# Greater than 150 cfs	Dangerous
+# 8/19/2017 - ~149 - we had to duck under some bridges
+# 7/20/2016 - ~31.5 - we lost Cabe's phone, and it was very shallow in parts
+# Obviously snow melt is a thing. The NOAA provides snow melt data that we could incoroporate
+# or we could only look at data where all the snow has melted and look at how much the creek
+# is likely to rise after a rainfall.
+# https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007WR006415
+# Create another table with hourly granularity?
+# enable gzip?
+# Would this service get me hourly data? https://waterservices.usgs.gov/rest/IV-Service.html
+# Holy wow, that returns in 15 minute increments
 
 import requests
 import json
@@ -58,7 +73,6 @@ else:
 
 #Create response object
 r = requests.get('https://waterservices.usgs.gov/nwis/dv/', params = payload)
-print(r.url)
 
 #Decode JSON
 data = r.json()
@@ -69,6 +83,7 @@ for metric in metrics:
 		for day in range(len(data['value']['timeSeries'][metric]['values'][0]['value'])):
 			Date = data['value']['timeSeries'][metric]['values'][0]['value'][day]['dateTime']
 			Temp = data['value']['timeSeries'][metric]['values'][0]['value'][day]['value']
+			Temp = (float(Temp) * 9/5) + 32 #Convert to Farhrenheit
 			c.execute('REPLACE INTO Creek ("Date", Temp) VALUES (?,?)',(Date[:10], Temp))
 	else:
 		for day in range(len(data['value']['timeSeries'][metric]['values'][0]['value'])):
