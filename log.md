@@ -260,6 +260,26 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Added Dark Sky weather API data source](exercises/creek)
 
+### Day 18, August 15th, 2018 - Wednesday:
+
+**Today's Progress**: 
+* Did some prioritizing on the creek project
+* Read more docs on weather APIs
+* Read Beautiful Soup docs and tried desperately to quickly grab table data
+* Realized Beautiful Soup doesn't load JavaScript, so I'll need Selenium to grab what I need to scrape
+
+**Thoughts**
+* Today I didn't really 'accomplish' anything, but I did put the time in. I learned a whole lot about the Beautiful Soup package and a little about Selenium.
+* This whole thing is getting really addictive. There is still the crushing feeling of all of the things I don't know, but I'm getting closer to the point where I can do meaningful things relatively quickly, and basically know my resources for learning completely new things.
+
+**Questions** 
+* Learn how to use the Selenium package
+* Learn more about Pandas dataframes for quickly making sense of tables
+
+**Link(s) to work**
+* [Couple of tweaks and some early thought starters](exercises/creek)
+
+
 ### Day X:
 
 **Today's Progress**: 
