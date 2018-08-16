@@ -9,6 +9,13 @@
 # "name": "MINNEAPOLIS ST PAUL INTERNATIONAL AIRPORT, MN US",
 # "datacoverage": 1,
 # "id": "GHCND:USW00014922",
+# While sweet, this data has some problems, first of all lag:
+# If observed, the station dataset includes max and minimum temperatures,
+# total precipitation, snowfall, and depth of snow on ground. Some U.S.
+# station data are typically delayed only 24 hours.
+# Second, lag again. It's the 15th and the most recent data point is the 6th.
+# Still, I think it's useful for broad trends and snowmelt and other geological
+# observations that could be baked into our model.
 
 import os
 import requests
@@ -27,8 +34,8 @@ noaa_key = os.environ['NOAA']
 offset = 1
 limit = 250
 count = 0
-startdate = '2018-08-01'
-enddate = '2018-08-31'
+startdate = '2018-08-06'
+enddate = '2018-08-14'
 url = 'https://www.ncdc.noaa.gov/cdo-web/api/v2/data'
 
 # Time to write to the DB - might need to handle pagination

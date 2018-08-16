@@ -33,6 +33,12 @@
 # enable gzip?
 # Would this service get me hourly data? https://waterservices.usgs.gov/rest/IV-Service.html
 # Holy wow, that returns in 15 minute increments
+# To do:
+#  + Create hourly flow table by averaging values from 15 minute increments
+#  + Grab historic rainfall totals by hour using BS4 from Weather Underground
+#  + Grab snow melt from NOAA
+#  + Create a model using melt and rainfall to predict flow rate
+#  + A few bits of clean up from comments
 
 import requests
 import json
