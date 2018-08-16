@@ -5,6 +5,8 @@
 # https://api.darksky.net/forecast/[key]/[latitude],[longitude]
 # This table doesn't collect rain amounts, wtf
 # I might be able to use precip intensity to model historical rainfall as long as I can match up dt stuff
+# https://www.weather.gov/documentation/services-web-api
+# My exclude blocks don't seem to be working
 
 import os
 import requests
