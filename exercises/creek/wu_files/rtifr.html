@@ -1,0 +1,24 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body style="background-color:transparent; width: 100%; text-align: center;" topmargin="0" marginwidth="0" marginheight="0" leftmargin="0">
+<div><img src="rtifr_data/pixel.gif" width="1" height="1"><img src="rtifr_data/pixel_002.gif" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "https://sync.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="rtifr_data/g.json"></script><img src="rtifr_data/token.txt" width="1" height="1"><img src="rtifr_data/image.png" width="1" height="1"><img src="rtifr_data/382416.gif" width="1" height="1"></div>
+
+</body></html>
