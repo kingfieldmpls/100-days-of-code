@@ -279,6 +279,45 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Couple of tweaks and some early thought starters](exercises/creek)
 
+### Day 19, August 16th, 2018 - Thursday:
+
+**Today's Progress**: 
+* Got Selenium up and running
+* Scraped the data I was looking for
+
+**Thoughts**
+* I'm fascinated by what possibilities Selenium opens up from an automation standpoint
+* It is really, really easy to hand Selenium objects off to Beautiful Soup
+
+**Questions** 
+* How can I get rid of ads and just generally speed up page loads?
+* What's the default behavior for page load? Can I set a time for when I think the DOM element will be ready?
+* I need ot spend more time with Selenium's documentation
+
+**Link(s) to work**
+* [Start of scraper](exercises/creek)
+
+### Day 20, August 17th, 2018 - Friday:
+
+**Today's Progress**: 
+* Successfully grabbed WU data from the website and wrote to the DB
+* Did some datetime magic, and figured out how to use a Firefox profile with add-ons installed
+
+**Thoughts**
+* I'm getting some timeouts with Selenium at home, I'm not 100% sure how to address those
+* I still don't feel like I have a good handle on Selenium's documentation
+* Sometimes progress is still slow going, but I'm not really getting completely stuck on anything
+
+**Questions** 
+* When would I want to use generators?
+* What does iter_tools do?
+* I still don't have my mind wrapped around list comprehensions
+* Other reserved words I don't use much [yield, assert, lambda
+* Add timing into specific components of the script
+* Move from procedural to OOP
+
+**Link(s) to work**
+* [Successful pulling and writing to DB](exercises/creek)
 
 ### Day X:
 
