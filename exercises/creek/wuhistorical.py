@@ -7,7 +7,7 @@
 # curious to see how much time each iteration takes
 # how soon does data enter historical?
 # add comments to follow the progress
-# need exception when the historical table doesn't load
+# need exception when the historical table doesn't load to reload the table and try again a few times
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -16,8 +16,8 @@ import requests
 import sqlite3
 from datetime import date, timedelta
 
-start_date = date(2017, 12, 20)
-end_date = date(2017, 12, 31)
+start_date = date(2017, 1, 1) # Back loaded from 2017 to roughly present. Back to 2010?
+end_date = date(2017, 9, 30)
 
 diff =  end_date - start_date
 
@@ -54,16 +54,26 @@ for date in dates:
 
 	soup =BeautifulSoup(browser.page_source, 'lxml')
 
+	table_header = soup.find("city-history-observation")
+
+	table_header_text = table_header.get_text()
+
+	while "No Data Recorded" in table_header_text:
+		browser.refresh()
+		soup =BeautifulSoup(browser.page_source, 'lxml')
+		table_header = soup.find("city-history-observation")
+		table_header_text = table_header.get_text()
+
 	table = soup.find(id="history-observation-table")
 
-	headers = table.findAll('ngsaw-header')
+	headers = table.find_all('ngsaw-header')
 
-	rows = table.tbody.findAll('tr')
+	rows = table.tbody.find_all('tr')
 
 	for row in rows:
 		line = []
 		line.append(date)
-		items = row.findAll('ng-saw-cell-parser')
+		items = row.find_all('ng-saw-cell-parser')
 
 		for item in items:
 				line.append(item.text.strip().replace('\n', ''))
