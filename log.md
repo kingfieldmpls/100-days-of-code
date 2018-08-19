@@ -319,6 +319,21 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 * [Successful pulling and writing to DB](exercises/creek)
 
+### Day 21, August 18th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Cooking with gas with the weather scraper. Grabbed a whole year with no crashes. Added some exception handling.
+* Watched videos on lambda functions, map functions and history of recursion
+
+**Thoughts**
+* I'm already worried about what I'll be able to do in 100 days. What about front end? What about mastering OOP and wrting more Pythonic code? What about ML? What about general math and stats knowledge? What about pandas and numpy?
+
+**Questions** 
+* The meet ups are fine. How do I get more immersed in local community?
+
+**Link(s) to work**
+* [Scraper is proceduarl, but well tuned](exercises/creek)
+
 ### Day X:
 
 **Today's Progress**: 
