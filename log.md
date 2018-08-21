@@ -332,7 +332,30 @@ Need to review the data validation rules for different SQL implementations in or
 * The meet ups are fine. How do I get more immersed in local community?
 
 **Link(s) to work**
-* [Scraper is proceduarl, but well tuned](exercises/creek)
+* [Scraper is procedural, but well tuned](exercises/creek)
+
+### Day 22/23, August 19th/20th, 2018 - Sunday/Monday:
+
+**Today's Progress**: 
+* Flask, Pyramid and Django examples and reading. I still like Flask
+* Spent more time in Plotly and legit figured out where they store the JSON and Python. My goodness. Got a decent looking multiple axis chart together.
+* Got WU updated since 2010
+* Working on the best way to map JSON to a database
+* Expanding NOAA dataset
+* Got NWS pull pretty much put together, just need to finish plumbing into the DB
+* Also did more research on discharge calculations and wrote those into the notes
+* Learned that pushing to forked repos doesn't count for anything
+
+**Thoughts**
+* I'm actually just gathering data here, but it may have use at work on the near future
+* Getting anxious to visualize and wrap up this part of the coursera program and move into data science, machine learning, better OOP practices and web frameworks
+
+**Questions** 
+* When exactly would you want to use collections.namedtuple and how is it used?
+* Why ORMs? Isn't writing SQL statements using a connector way easier?
+
+**Link(s) to work**
+* [NOAA and NWS updated](exercises/creek)
 
 ### Day X:
 
