@@ -1,9 +1,8 @@
-# minnehaha creek flow data
 # This flow data retrieval is super awesome - here are the resources:
 # https://help.waterdata.usgs.gov/faq/automated-retrievals
 # https://waterservices.usgs.gov/rest/
 #
-# Site #05289800
+# Site #05289800 - Lower St. Anthony Falls
 #
 # Functionality:
 # + Visualize the output
@@ -11,34 +10,36 @@
 # + Try to make predictions based on how much rain falls, how high the creek is going to be for how long
 #     -Then look at the weather forecast and predict (based on where the creek is now) how high it will be in the future
 #     -Then compare those quesses to reality to improve the model
-# + Grab updated since when making the request
-# + Change to hourly aggregation instead?
-# + Move from procedural to OOP
-# + I think I'll actually use NOAA for my weather data source
-#
-# Note: Is there a good time of day to retrieve data?
-# Yes.  If possible, we prefer that you retrieve information during "off peak" hours. Midnight to 6 AM Eastern Time is ideal.
 #
 # FLOW	                CREEK CONDITION
 # Less than 75 cfs	    Poor
 # 75 cfs - 150 cfs	    Good
 # Greater than 150 cfs	Dangerous
+#
 # 8/19/2017 - ~149 - we had to duck under some bridges
 # 7/20/2016 - ~31.5 - we lost Cabe's phone, and it was very shallow in parts
+#
 # Obviously snow melt is a thing. The NOAA provides snow melt data that we could incoroporate
 # or we could only look at data where all the snow has melted and look at how much the creek
 # is likely to rise after a rainfall.
-# https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007WR006415
-# Create another table with hourly granularity?
-# enable gzip?
-# Would this service get me hourly data? https://waterservices.usgs.gov/rest/IV-Service.html
-# Holy wow, that returns in 15 minute increments
-# To do:
-#  + Create hourly flow table by averaging values from 15 minute increments
-#  + Grab historic rainfall totals by hour using BS4 from Weather Underground
-#  + Grab snow melt from NOAA
-#  + Create a model using melt and rainfall to predict flow rate
-#  + A few bits of clean up from comments
+#
+# How to model creek flow rate increases: 
+#    -https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007WR006415
+#
+# TO DO:
+# + Grab updated since when making the NOAA request
+# + Move from procedural to OOP
+# + Create another table with hourly granularity
+#    - https://waterservices.usgs.gov/rest/IV-Service.html
+#    - Returns 15 minute granularity
+# + enable gzip
+# + Grab snow melt from NOAA
+# + Create a model using melt and rainfall to predict flow rate
+# + A few bits of clean up from comments
+# + Use NWS for forecast
+# + change log level on geckodriver
+# + add docstrings
+# + scrub data to be in the same formats to make munging easier
 
 import requests
 import json
