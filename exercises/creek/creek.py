@@ -27,19 +27,13 @@
 #    -https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007WR006415
 #
 # TO DO:
-# + Grab updated since when making the NOAA request
-# + Move from procedural to OOP
-# + Create another table with hourly granularity
-#    - https://waterservices.usgs.gov/rest/IV-Service.html
-#    - Returns 15 minute granularity
-# + enable gzip
-# + Grab snow melt from NOAA
+# + Move from procedural to OOP, or just wrap more imperatives into functions
 # + Create a model using melt and rainfall to predict flow rate
 # + A few bits of clean up from comments
-# + Use NWS for forecast
 # + change log level on geckodriver
 # + add docstrings
 # + scrub data to be in the same formats to make munging easier
+# + clean up table names
 
 import requests
 import json
