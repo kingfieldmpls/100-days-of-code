@@ -353,9 +353,34 @@ Need to review the data validation rules for different SQL implementations in or
 **Questions** 
 * When exactly would you want to use collections.namedtuple and how is it used?
 * Why ORMs? Isn't writing SQL statements using a connector way easier?
+* Need to figure out git.ignore
 
 **Link(s) to work**
 * [NOAA and NWS updated](exercises/creek)
+
+### Day 24/25, August 21st/22nd, 2018 - Tuesday/Wednesday:
+
+**Today's Progress**: 
+* Finished plumbing NWS
+* Learned about PHP role based access control
+* Setup linting with Flake8
+* Found out I can fire dumb logs into /nul/ of any folder to make it disappear
+* Finally read PEP8 https://www.python.org/dev/peps/pep-0008/ (mostly)
+
+**Thoughts**
+* My NWS forecast grid expired! Which makes it really hard to write the app, but nice to have the exception to reference
+* Timer decorators
+* \* unpacks tuples/lists (positional arguments) and \*\* unpacks dictionaries (keyword arguments)
+* I should really ready this - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control#ch01-getting-started
+
+**Questions**
+* Learn more about roles in Python web frameworks
+* I think I'd like to tackle Flask soon, but ML and data science too! Ah!
+* More functional programming: map, filter, itertools, functools, generators and decorators 
+* Different types of imports - absolute v. explcit relative
+
+**Link(s) to work**
+* [NWS updated, numerous refinements and linted](exercises/creek)
 
 ### Day X:
 
