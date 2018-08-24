@@ -377,10 +377,31 @@ Need to review the data validation rules for different SQL implementations in or
 * Learn more about roles in Python web frameworks
 * I think I'd like to tackle Flask soon, but ML and data science too! Ah!
 * More functional programming: map, filter, itertools, functools, generators and decorators 
-* Different types of imports - absolute v. explcit relative
+* Different types of imports - absolute v. explicit relative
 
 **Link(s) to work**
 * [NWS updated, numerous refinements and linted](exercises/creek)
+
+### Day 26, August 24th, 2018 - Friday:
+
+**Today's Progress**: 
+* Playing with refactoring some code
+* Testing performance a couple of ways
+* Learning some basics about importing, like how sys.path is resolved
+*    It's looking in current dir first
+*    There is a PYTHONPATH system variable that can be defined. Need to learn more about that.
+
+**Thoughts**
+* Turns out it would be a huge pain to turn my imperative statements into functions. Just for kicks I'd like to give it a try just to see how performance nets out.
+* Man does an hour go by like nothing
+
+**Questions** 
+* I still don't really understand namespaces, packages and what the fine points of absolute, explicit and relative imports are.
+* I think this is going to help me - https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+
+**Link(s) to work**
+* [Minimal updates. Some linting](exercises/creek)
+
 
 ### Day X:
 

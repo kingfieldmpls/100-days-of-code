@@ -16,6 +16,7 @@
 # Second, lag again. It's the 15th and the most recent data point is the 6th.
 # Still, I think it's useful for broad trends and snowmelt and other geological
 # observations that could be baked into our model.
+#
 # start/end dates: Required. Accepts valid ISO formated date (YYYY-MM-DD) or
 # date time (YYYY-MM-DDThh:mm:ss). Data returned will be before the specified
 # date. Annual and Monthly data will be limited to a ten year range while all
@@ -47,7 +48,8 @@ url = 'https://www.ncdc.noaa.gov/cdo-web/api/v2/data'
 # SNOW = Snowfall mm or inches as per user preference inches to tenths
 # SNWD = Snow depth mm or inches as per user preference inches
 # TMAX  =  Maximum  temperature  (Fahrenheit  or  Celsius  as  per  user  preference,  Fahrenheit  to  tenths
-metrics = {'PRCP': 'Precip', 'TMAX': 'Temp', 'SNOW': 'Snowfall', 'SNWD': 'SnowAccum'}
+metrics = {'PRCP': 'Precip', 'TMAX': 'Temp', 'SNOW': 'Snowfall',
+           'SNWD': 'SnowAccum'}
 
 # Time to write to the DB - might need to handle pagination
 print("Getting report ... ")
@@ -69,11 +71,13 @@ while count is 0 or offset <= count:
             if "PRCP" in result['datatype']:
                 date = result['date']
                 precip = result['value']
-                c.execute('REPLACE INTO Weather ("Date", Precip) VALUES (?,?)', (date[:10], precip))
+                c.execute('REPLACE INTO Weather ("Date", Precip) VALUES (?,?)',
+                          (date[:10], precip))
             else:
                 date = result['date']
                 val = result['value']
-                c.execute('UPDATE Weather SET ' + metrics[result['datatype']] + ' = ? WHERE "Date" = ?', (val, date[:10]))
+                c.execute('UPDATE Weather SET ' + metrics[result['datatype']]
+                          + ' = ? WHERE "Date" = ?', (val, date[:10]))
 
     offset += limit
 
