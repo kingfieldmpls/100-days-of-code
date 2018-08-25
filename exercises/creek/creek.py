@@ -19,18 +19,13 @@
 # 8/19/2017 - ~149 - we had to duck under some bridges
 # 7/20/2016 - ~31.5 - we lost Cabe's phone, and it was very shallow in parts
 #
-# Obviously snow melt is a thing. The NOAA provides snow melt data that we could incoroporate
-# or we could only look at data where all the snow has melted and look at how much the creek
-# is likely to rise after a rainfall.
-#
-# How to model creek flow rate increases: 
+# How to model creek flow rate increases:
 #    -https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007WR006415
 #
 # TO DO:
 # + Move from procedural to OOP, or just wrap more imperatives into functions
 # + Create a model using melt and rainfall to predict flow rate
 # + A few bits of clean up from comments
-# + change log level on geckodriver
 # + add docstrings
 # + scrub data to be in the same formats to make munging easier
 # + clean up table names

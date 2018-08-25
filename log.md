@@ -390,6 +390,8 @@ Need to review the data validation rules for different SQL implementations in or
 * Learning some basics about importing, like how sys.path is resolved
 *    It's looking in current dir first
 *    There is a PYTHONPATH system variable that can be defined. Need to learn more about that.
+* There is a difference between standard library and built-in modules
+*    sys.builtin_module_names
 
 **Thoughts**
 * Turns out it would be a huge pain to turn my imperative statements into functions. Just for kicks I'd like to give it a try just to see how performance nets out.
@@ -398,9 +400,28 @@ Need to review the data validation rules for different SQL implementations in or
 **Questions** 
 * I still don't really understand namespaces, packages and what the fine points of absolute, explicit and relative imports are.
 * I think this is going to help me - https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+* tell me more about __init__.py
+* How are import name conflicts resolved?
 
 **Link(s) to work**
 * [Minimal updates. Some linting](exercises/creek)
+
+### Day 27, August 25th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Big lessoned learned, if you're calling a script directly, you can't traverse above it's current directly unless you've defined it in PYTHONPATH or sys.path. If you start something higher up the hierarchy and that file need to import back up the tree, you can do that, but it's best to use absolute imports and walk all the way back down the tree
+* It seems so simple now, but running a file directly just imports it as "__main__". That's all.
+* Flake8 throws a redefinition error if I reassign something I've imported from another module (function, variable, etc)
+
+**Thoughts**
+* You can just import any object, right?
+* An hour really is nothing. The thought are all there, but apparently it takes me about an hour to start the engines and then any more time I would need after that to really rev the engines.
+* Want to get back on Slack tomorrow
+
+**Questions** 
+* Tell me more about __package__ 
+
+**Link(s) to work**
 
 
 ### Day X:
