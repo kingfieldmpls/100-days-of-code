@@ -267,10 +267,12 @@ Need to review the data validation rules for different SQL implementations in or
 * Read more docs on weather APIs
 * Read Beautiful Soup docs and tried desperately to quickly grab table data
 * Realized Beautiful Soup doesn't load JavaScript, so I'll need Selenium to grab what I need to scrape
+* Wand and ImageMagick
 
 **Thoughts**
 * Today I didn't really 'accomplish' anything, but I did put the time in. I learned a whole lot about the Beautiful Soup package and a little about Selenium.
 * This whole thing is getting really addictive. There is still the crushing feeling of all of the things I don't know, but I'm getting closer to the point where I can do meaningful things relatively quickly, and basically know my resources for learning completely new things.
+* We're getting pretty far afield here, I think it may be time to reset some of the goals and next steps
 
 **Questions** 
 * Learn how to use the Selenium package
@@ -419,10 +421,56 @@ Need to review the data validation rules for different SQL implementations in or
 * Want to get back on Slack tomorrow
 
 **Questions** 
-* Tell me more about __package__ 
+* Tell me more about __package__ - it looks like you can set this variable to help figure out how to walk down the tree
+
+**Link(s) to work**
+[Some little sample files to figure out imports](exercises)
+
+
+### Day 28-30, August 26th - 28th - Sunday - Tuesday:
+
+**Today's Progress**: 
+* Reading up on generators, decorators and context managers - thanks PyCon AU 2018
+* Using PIL and Tesseract
+* Using help('string') is like being in the help interface and issuing a command - neat
+* PIP names are often different from their actual module names you can import
+
+**Thoughts**
+* Really just need a lot more time practicing writing functions. My whole Coursera thing was great for a lot of reasons, but getting practice thinking about actual design and higher level objects wasn't a thing that happened.
+* Positional arguments have to come before keyword arguments. If you provide defaults, the arguments are optional.
+
+**Questions** 
+* Where can you view help for functions and what arguments can be passed and if they're positional or keyword and if they're required or not from the command line?
+* What are the finer points of keyword and positional arguments? If a KW arguments is None, can you just pass in arguments as if they were positional? If you set default arguments for keyword arguments, how do you overwrite those? 
+* Can you have required keyword arguments? Yes, PEP 3102, use a *
+* Read more about how docstrings work for individual lines in code, functions, methods within classes, etc.
+* Using Vi or Vim
+* Ghostscript, OpenVC, textract, Pandas, my god the list just keeps growing
+* How do you install from tar.gz?
 
 **Link(s) to work**
 
+### Day 31, August 29th, Wednesday:
+
+**Today's Progress**: 
+* Got the new version of Tesseract 4 running!
+* Learned how to basically use GIMP
+* Spent time in Wand and pytesseract learning more of the libraries
+* Read quite a big about ImageMagick and OCR
+* Going into OpenCV and Numpy - why not?!
+* Finally got back to doing some work on the creek project - I really suck at object oriented programming
+
+**Thoughts**
+* Still need to figure out pre-processing of an image - how to do it efficiently
+* Want to setup a config file for tesseract
+
+**Questions** 
+* What are the advantages to running Tesseract from the command line?
+* How do you train tesseract?
+* Is it weird to mix local and global scope of variables, or is it OK to initialize and then run with the new variable keeping track locally?
+
+**Link(s) to work**
+[Some progress back on creek, but I need to map logic again](exercises/creek/procedural)
 
 ### Day X:
 
