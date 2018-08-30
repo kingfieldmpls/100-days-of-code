@@ -27,8 +27,6 @@ import requests
 import json
 import sqlite3
 
-def sendToDatabase()
-
 # Open or create Canoeing database
 conn = sqlite3.connect('canoeing.db')
 c = conn.cursor()
