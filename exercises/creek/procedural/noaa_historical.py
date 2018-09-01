@@ -18,6 +18,7 @@
 # date time (YYYY-MM-DDThh:mm:ss). Data returned will be before the specified
 # date. Annual and Monthly data will be limited to a ten year range while all
 # other data will be limted to a one year range.
+#
 # To Do Here:
 # - Write docstrings
 # - Write various unit tests
@@ -30,20 +31,6 @@ import os
 import requests
 import sqlite3
 
-# What are my steps:
-# 1. Startup the Requests service
-# 2. Grab all of the data
-# 3. Sort all of the data
-# 4. Write everything to the DB
-
-# Define start and end dates
-startdate = '2018-08-01'
-enddate = '2018-08-31'
-
-# Setup variables for pagination
-offset = 1
-limit = 250
-
 # Add metrics:
 # PRCP = Precipitation mm or inches as per user preference,
 #        inches to hundredths
@@ -51,8 +38,8 @@ limit = 250
 # SNWD = Snow depth mm or inches as per user preference inches
 # TMAX = Maximum  temperature  (Fahrenheit  or  Celsius  as  per
 #        user  preference,  Fahrenheit  to  tenths
-metrics = {'PRCP': 'Precip', 'TMAX': 'Temp', 'SNOW': 'Snowfall',
-           'SNWD': 'SnowAccum'}
+metrics = {'PRCP': 'PrecipInches', 'TMAX': 'TempF', 'SNOW': 'SnowfallInches',
+           'SNWD': 'SnowAccumInches'}
 
 
 def setupRequest(fromDate=None, toDate=None, offset=1, limit=250):
@@ -72,7 +59,7 @@ def setupRequest(fromDate=None, toDate=None, offset=1, limit=250):
                }
 
     # Run Requests, grab one chunk of data
-    print("Getting report ... ")
+    print('Getting report ... ')
     r = requests.get(url, headers=headers, params=payload)
     data = json.loads(r.text)
 
@@ -81,37 +68,82 @@ def setupRequest(fromDate=None, toDate=None, offset=1, limit=250):
 
 def getData(data):
 
-    count = data['metadata']['resultset']['count']
-
-    print(f'Grabbing {offset} through {offset + limit - 1} \
-            of {count} records')
-
-    if count <= limit:
-        pass
+    if count < limit + offset:
+        print(f'Grabbing {offset} through {count} of {count} records')
     else:
-        rows = []
-        while offset + limit - 1 <= count:
-            for result in data['results']:
-                line.append(result['date'])
-                line.append(result['value'])
-            offset += limit
+        print(f'Grabbing {offset} through {offset + limit - 1} of {count} records')
+
+    rows = []
+
+    for result in data['results']:
+        line = []
+        line.append(result['date'])
+        line.append(result['datatype'])
+        line.append(result['value'])
+        rows.append(line)
+
+    return rows
+
 
 def sendToDatabase(rows):
 
-    # Open or create Canoeing database
+    # Open Canoeing database
     conn = sqlite3.connect('canoeing.db')
     c = conn.cursor()
 
     # Create or refresh table
     c.execute('''
-    CREATE TABLE IF NOT EXISTS Weather ("Date" DATE PRIMARY KEY, Precip REAL,
-    Temp REAL, Snowfall REAL, SnowAccum REAL)''')
+    CREATE TABLE IF NOT EXISTS NOAAWeatherHistorical
+    ("Date" DATE PRIMARY KEY, PrecipInches REAL,
+    TempF REAL, SnowfallInches REAL, SnowAccumInches REAL)''')
 
-    c.execute('REPLACE INTO Weather ("Date", Precip) VALUES (?,?)',
-              (date[:10], precip))
+    print('Writing rows to the database')
 
-    c.execute('UPDATE Weather SET ' + metrics[result['datatype']]
-              + ' = ? WHERE "Date" = ?', (val, date[:10]))
+    for row in rows:
+        column = metrics[row[1]]
 
-    conn.commit()
+        # Check if update or new row
+        c.execute('''
+            SELECT "Date" from NOAAWeatherHistorical WHERE "Date" = ?''',
+                  (row[0][:10],))
+
+        # Write data to the DB
+        check = c.fetchone()
+        if check is None:
+            c.execute('''
+                INSERT INTO NOAAWeatherHistorical ("DATE",''' + column + ''')
+                VALUES (?,?)''', (row[0][:10], row[2]))
+        else:
+            c.execute('''
+                UPDATE NOAAWeatherHistorical SET ''' + column + ''' = ?
+                WHERE "DATE" = ?''', (row[2], row[0][:10]))
+        conn.commit()
+
     c.close()
+
+
+# Run my main program here
+startdate = '2018-08-01'
+enddate = '2018-08-31'
+
+data = setupRequest(startdate, enddate)
+
+count = data['metadata']['resultset']['count']
+offset = data['metadata']['resultset']['offset']
+limit = data['metadata']['resultset']['limit']
+
+if count <= limit:
+    rows = getData(data)
+    sendToDatabase(rows)
+
+else:
+    rows = getData(data)
+    sendToDatabase(rows)
+    offset += limit
+    while offset <= count:
+        data = setupRequest(startdate, enddate, offset)
+        rows = getData(data)
+        sendToDatabase(rows)
+        offset += limit
+
+print(f'Finished writing to database.\nCompleted {count} records')
