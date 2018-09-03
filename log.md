@@ -472,6 +472,54 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 [Some progress back on creek, but I need to map logic again](exercises/creek/procedural)
 
+### Day 32/33, August 30th/31st, Thursday/Friday:
+
+**Today's Progress**:
+* Finally wrapped up turning all my imperative statements in one NOAA script into functions. It didn't actually add any performance, but it helped me get more practiced in this sort of design. My brain is coming around.
+
+**Thoughts**
+* Felt good to be back in the main project again. It's amazing how quickly you loose momentum if you change gears onto a different project.
+* Still a bit daunted by all of the basics left to cover and getting anxious to move onto the next project, but dedicated to crossing the finish line on this one.
+
+**Questions** 
+* Time to put on the finishing touches:
+ * Logging
+ * Unit testing
+ * Docstrings
+ * Command line arguments
+
+**Link(s) to work**
+[Mostly completed refactoring one script](exercises/creek/procedural)
+
+### Day 34/35, September 1s2nd, Saturday/Sunday:
+
+**Today's Progress**: 
+* Cory Schafer is just the absolute best. I watched both of his videos on logging 1+ times.
+ * https://www.youtube.com/watch?v=jxmzY9soFXg
+* Read the "Basic Python tutorial" and other major portions from Python.org documentation
+ * https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+ * https://docs.python.org/3/library/logging.html#logging.Formatter
+  * Esp. 16.6.7. LogRecord attributes
+* Read the foundational PEP on docstrings, but it seems like the community has adopted a whole host of other conventoins by this point - https://www.python.org/dev/peps/pep-0257/
+* Figured how how to handle exceptions with logging
+ * Services like MySQL and Requests have methods built in to help you catch exceptions in real time without have to try too hard to identify them yourself
+
+**Thoughts**
+* Formatting logs uses the old style %s which is very annoying
+ * Truncating and padding using -5.5s is confusing. Can you format adding timestaps with more modern string formatting, or even f strings?
+
+**Questions**
+* When do you want to use stdout v. a log file? Or both?
+* What are good visualizations tools for log files?
+* What's a goog Sublime course for Windows? It looks like Corey has a thing.
+ * https://www.youtube.com/watch?v=9FPFogHkgOc
+* Best ways to add timestamp formatting in logs?
+* Where is rccron.log hanging out?
+* It sounds like Google and NumPy have their own style of docstrings. What all is convention. Like when do you write about exceptions. And when do you mention if a parameter is required, or what a default value is? How verbose do you need to be when the output of the script is obvious?
+
+**Link(s) to work**
+[Docstrings complete](exercises/creek/procedural)
+
 ### Day X:
 
 **Today's Progress**: 
