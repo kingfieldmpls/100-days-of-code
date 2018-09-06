@@ -41,6 +41,7 @@
 # + change log level on geckodriver
 # + add docstrings
 
+import json
 import requests
 import sqlite3
 
@@ -65,7 +66,7 @@ CREATE TABLE IF NOT EXISTS CreekDaily ("Date" DATE PRIMARY KEY, FlowRate REAL, T
 metrics = [2, 3]
 
 # Enter any value for days back from current day - up to a max of 150. Set to None to run with specific dates
-days = 7
+days = 1
 
 # r define specific dates. For whatever reason there is a gap in data at the end of 2017 up to 3/15/18
 start = '2010-01-01'
@@ -82,6 +83,8 @@ r = requests.get('https://waterservices.usgs.gov/nwis/dv/', params=payload)
 
 # Decode JSON
 data = r.json()
+
+print(json.dumps(data, indent=4))
 
 # Traverse and parse JSON output to prepare for writing to DB
 for metric in metrics:

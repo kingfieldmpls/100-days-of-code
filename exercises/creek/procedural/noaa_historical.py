@@ -17,6 +17,7 @@
 # To Do Here:
 # - Write various unit tests
 # - Write methods for command line arguments
+# - There's probasbly one more layer of abstraction in the main function
 
 import json
 import logging
@@ -88,7 +89,8 @@ def getData(data):
     if count < limit + offset:
         logger.info(f'Grabbing {offset} through {count} of {count} records')
     else:
-        logger.info(f'Grabbing {offset} through {offset + limit - 1} of {count} records')
+        logger.info(f'Grabbing {offset} through {offset + limit - 1}'
+                    ' of {count} records')
 
     rows = []
 
@@ -149,44 +151,46 @@ def sendToDatabase(rows):
 
 
 # Run main program here
+if __name__ == "__main__":
+    # Setup logging to file and stdout
+    logging.basicConfig(filename='creek.log', level=logging.INFO,
+                        format='%(asctime)-.19s : %(module)s :'
+                               '%(levelname)s : %(message)s')
+    logger = logging.getLogger(__file__)
+    logger.addHandler(logging.StreamHandler())
 
-# Setup logging to file and stdout
-logging.basicConfig(filename='creek.log', level=logging.INFO,
-                    format='%(asctime)-.19s : %(module)s :'
-                           '%(levelname)s : %(message)s')
-logger = logging.getLogger(__file__)
-logger.addHandler(logging.StreamHandler())
+    # Add metrics:
+    # PRCP = Precipitation mm or inches as per user preference,
+    #        inches to hundredths
+    # SNOW = Snowfall mm or inches as per user preference inches to tenths
+    # SNWD = Snow depth mm or inches as per user preference inches
+    # TMAX = Maximum  temperature  (Fahrenheit  or  Celsius  as  per
+    #        user  preference,  Fahrenheit  to  tenths
+    metrics = {'PRCP': 'PrecipInches',
+               'TMAX': 'TempF',
+               'SNOW': 'SnowfallInches',
+               'SNWD': 'SnowAccumInches'}
+    startdate = '2018-08-01'
+    enddate = '2018-08-31'
 
-# Add metrics:
-# PRCP = Precipitation mm or inches as per user preference,
-#        inches to hundredths
-# SNOW = Snowfall mm or inches as per user preference inches to tenths
-# SNWD = Snow depth mm or inches as per user preference inches
-# TMAX = Maximum  temperature  (Fahrenheit  or  Celsius  as  per
-#        user  preference,  Fahrenheit  to  tenths
-metrics = {'PRCP': 'PrecipInches', 'TMAX': 'TempF', 'SNOW': 'SnowfallInches',
-           'SNWD': 'SnowAccumInches'}
-startdate = '2018-08-01'
-enddate = '2018-08-31'
+    data = setupRequest(startdate, enddate)
 
-data = setupRequest(startdate, enddate)
+    count = data['metadata']['resultset']['count']
+    offset = data['metadata']['resultset']['offset']
+    limit = data['metadata']['resultset']['limit']
 
-count = data['metadata']['resultset']['count']
-offset = data['metadata']['resultset']['offset']
-limit = data['metadata']['resultset']['limit']
+    if count <= limit:
+        rows = getData(data)
+        sendToDatabase(rows)
 
-if count <= limit:
-    rows = getData(data)
-    sendToDatabase(rows)
-
-else:
-    rows = getData(data)
-    sendToDatabase(rows)
-    offset += limit
-    while offset <= count:
-        data = setupRequest(startdate, enddate, offset)
+    else:
         rows = getData(data)
         sendToDatabase(rows)
         offset += limit
+        while offset <= count:
+            data = setupRequest(startdate, enddate, offset)
+            rows = getData(data)
+            sendToDatabase(rows)
+            offset += limit
 
-logger.info(f'Finished writing to database.\nCompleted {count} records')
+    logger.info(f'Finished writing to database.\nCompleted {count} records')
