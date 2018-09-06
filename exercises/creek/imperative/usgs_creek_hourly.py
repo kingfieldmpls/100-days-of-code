@@ -1,3 +1,5 @@
+import json
+
 import requests
 import sqlite3
 
@@ -25,7 +27,7 @@ metrics = {
 }
 
 # Enter any value for days back from current day - up to a max of 150. Set to None to run with specific dates
-days = None
+days = 1
 
 # Or define specific dates. For whatever reason there is a gap in data at the end of 2017 up to 3/15/18
 start = '2010-01-01'
@@ -43,6 +45,8 @@ print(r.text)
 
 # Decode JSON
 data = r.json()
+
+print(json.dumps(data, indent=4))
 
 # Traverse and parse JSON output to prepare for writing to DB
 for metric in metrics:

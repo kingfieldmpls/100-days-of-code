@@ -491,7 +491,7 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 [Mostly completed refactoring one script](exercises/creek/procedural)
 
-### Day 34/35, September 1s2nd, Saturday/Sunday:
+### Day 34/35, September 1st/2nd, Saturday/Sunday:
 
 **Today's Progress**: 
 * Cory Schafer is just the absolute best. I watched both of his videos on logging 1+ times.
@@ -519,6 +519,32 @@ Need to review the data validation rules for different SQL implementations in or
 
 **Link(s) to work**
 [Docstrings complete](exercises/creek/procedural)
+
+### Day 36/37/38, September 3rd/4th/5th, Monday/Tuesday/Wednesday:
+
+**Today's Progress**: 
+* Learning about unittest
+* Requires test_[moduleName]
+* Read through pytest - seems better
+* Finished converting NWS forecast to procedural
+* Refactored USGS data sources - just WU remains
+
+**Thoughts**
+* Need to watch all of the Corey Schafer OOP vids
+* Take a look at pytest for comparison
+* Doing cleanup and maintenance takes a lot longer than just making something work
+* Getting code "production ready" is really where the "work" comes in
+
+**Questions** 
+* what about PDB again?
+* What are all of the Python command line arguments? -m for example
+* How do I use the Sublime multi-cursor?
+* from unittest.mock import patch seems important for simulating pulls from APIs
+* Timing completion of each function call
+* Creating progress bars in the command line
+
+**Link(s) to work**
+[USGS largely refactored](exercises/creek/procedural)
 
 ### Day X:
 
