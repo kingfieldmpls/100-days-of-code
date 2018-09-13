@@ -32,17 +32,17 @@ import requests
 import sqlite3
 
 
-def tempConversion(celsius):
+def temp_conversion(celsius):
     tempF = int(round(float(celsius) * 9/5 + 32))
     return tempF
 
 
-def lengthConversion(mm):
+def length_conversion(mm):
     lengthInch = float(mm * 0.0393700787)
     return lengthInch
 
 
-def setupRequest():
+def setup_request():
     # Create response object in includes station code and gridpoints
     r = requests.get('https://api.weather.gov/gridpoints/MPX/109,67')
 
@@ -52,7 +52,7 @@ def setupRequest():
     return data
 
 
-def getData(data, metrics):
+def get_data(data, metrics):
 
     rows = []
 
@@ -69,7 +69,7 @@ def getData(data, metrics):
     return rows
 
 
-def sendToDatabase(rows):
+def send_to_database(rows):
     # Open Canoeing database
     conn = sqlite3.connect('canoeing.db')
     c = conn.cursor()
@@ -90,14 +90,14 @@ def sendToDatabase(rows):
         column = metrics[row[0]]
 
         if row[0] == "temperature":
-            row[2] = tempConversion(row[2])
+            row[2] = temp_conversion(row[2])
         elif row[0] == "snowLevel":
             # converts meters to feet
-            row[2] = lengthConversion(row[2]) * 1000 / 12
+            row[2] = length_conversion(row[2]) * 1000 / 12
         elif row[0] in ["quantitativePrecipitation",
                         "iceAccumulation",
                         "snowfallAmount"]:
-            row[2] = lengthConversion(row[2])
+            row[2] = length_conversion(row[2])
 
         # Check if update or new row
         c.execute('''
@@ -136,6 +136,6 @@ if __name__ == "__main__":
                'snowfallAmount': 'SnowAccumInches',
                'snowLevel': 'SnowLevelFeet'}
 
-    data = setupRequest()
-    rows = getData(data, metrics)
-    sendToDatabase(rows)
+    data = setup_request()
+    rows = get_data(data, metrics)
+    send_to_database(rows)

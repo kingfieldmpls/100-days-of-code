@@ -27,7 +27,7 @@ import requests
 import sqlite3
 
 
-def setupRequest(fromDate, toDate, offset=1, limit=250):
+def setup_request(fromDate, toDate, offset=1, limit=250):
     """ Makes API call to NOAA enpoint and returns JSON data.
 
     Pulls in API key defined as an environment variable and metrics
@@ -73,7 +73,7 @@ def setupRequest(fromDate, toDate, offset=1, limit=250):
     return data
 
 
-def getData(data):
+def get_data(data):
     """ Parses NOAA JSON data for SQL insertion.
 
     Due to the nature of the endpoint, grabs date, datatype and value
@@ -104,7 +104,7 @@ def getData(data):
     return rows
 
 
-def sendToDatabase(rows):
+def send_to_database(rows):
     """ Writes NOAA data to SQL database.
 
     Checks if the table exists and creates if not. Checks if the current
@@ -173,24 +173,24 @@ if __name__ == "__main__":
     startdate = '2018-08-01'
     enddate = '2018-08-31'
 
-    data = setupRequest(startdate, enddate)
+    data = setup_request(startdate, enddate)
 
     count = data['metadata']['resultset']['count']
     offset = data['metadata']['resultset']['offset']
     limit = data['metadata']['resultset']['limit']
 
     if count <= limit:
-        rows = getData(data)
-        sendToDatabase(rows)
+        rows = get_data(data)
+        send_to_database(rows)
 
     else:
-        rows = getData(data)
-        sendToDatabase(rows)
+        rows = get_data(data)
+        send_to_database(rows)
         offset += limit
         while offset <= count:
-            data = setupRequest(startdate, enddate, offset)
-            rows = getData(data)
-            sendToDatabase(rows)
+            data = setup_request(startdate, enddate, offset)
+            rows = get_data(data)
+            send_to_database(rows)
             offset += limit
 
     logger.info(f'Finished writing to database.\nCompleted {count} records')
