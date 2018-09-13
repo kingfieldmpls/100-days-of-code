@@ -79,7 +79,7 @@ for date in dates:
 
         line = [line[i] for i in [0, 1, 9]]
         if "0.0 in" not in line[2]:
-            c.execute('REPLACE INTO WeatherHistoricalHourly ("Date", "Time", Precip) VALUES (?,?,?)',line)
+            c.execute('REPLACE INTO WeatherHistoricalHourly ("Date", "Time", Precip) VALUES (?,?,?)', line)
         conn.commit()
 
 browser.close()

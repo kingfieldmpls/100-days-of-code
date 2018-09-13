@@ -1,61 +1,29 @@
-2018-09-02 15:50:02 : noaa_historical :INFO : Getting report ... 
-2018-09-02 15:50:03 : noaa_historical :ERROR : Critical error
-Traceback (most recent call last):
-  File "C:\Users\RobMartin\Desktop\100-days-of-code\exercises\creek\procedural\noaa_historical.py", line 141, in <module>
-    count = data['metadata']['resultset']['count']
-KeyError: 'metadata'
-2018-09-02 15:57:41 : noaa_historical :INFO : Getting report ... 
-2018-09-02 15:59:43 : noaa_historical :INFO : Getting report ... 
-2018-09-02 16:00:16 : noaa_historical :INFO : Getting report ... 
-2018-09-02 16:07:45 : noaa_historical :INFO : Getting report ... 
-2018-09-02 16:07:45 : noaa_historical :ERROR : API Call Failed
-Traceback (most recent call last):
-  File "C:\Users\RobMartin\Desktop\100-days-of-code\exercises\creek\procedural\noaa_historical.py", line 74, in setupRequest
-    r.raise_for_status()
-  File "C:\Users\RobMartin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 939, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.ncdc.noaa.gov/cdo-web/api/v2/data?stationid=GHCND%3AUSC00214884&datasetid=GHCND&datatypeid=PRCP&datatypeid=TMAX&datatypeid=SNOW&datatypeid=SNWD&startdate=2018-08-01&enddate=2018-08-31&units=standard&limit=250&offset=1
-2018-09-02 16:08:56 : noaa_historical :INFO : Getting report ... 
-2018-09-02 16:08:56 : noaa_historical :INFO : Grabbing 1 through 118 of 118 records
-2018-09-02 16:08:56 : noaa_historical :INFO : Writing rows to the database
-2018-09-02 16:08:57 : noaa_historical :INFO : Finished writing to database.
-Completed 118 records
-2018-09-02 20:37:04 : noaa_historical :INFO : Getting report ... 
-2018-09-02 20:37:05 : noaa_historical :INFO : Grabbing 1 through 122 of 122 records
-2018-09-02 20:37:05 : noaa_historical :INFO : Writing rows to the database
-2018-09-02 20:37:05 : noaa_historical :INFO : Finished writing to database.
-Completed 122 records
-2018-09-04 22:39:25 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:43:22 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:46:28 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:48:42 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:49:19 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:50:03 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:51:18 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:52:26 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:52:46 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:53:56 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:54:47 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 22:55:31 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:05:19 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:05:31 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:06:17 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:07:42 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:08:57 : nws_forecast-WORKONME :INFO : Writing rows to the database
-2018-09-04 23:25:22 : nws_forecast :INFO : Writing rows to the database
-2018-09-04 23:25:49 : nws_forecast :INFO : Writing rows to the database
-2018-09-04 23:26:28 : nws_forecast :INFO : Writing rows to the database
-2018-09-04 23:26:44 : nws_forecast :INFO : Writing rows to the database
-2018-09-04 23:34:05 : nws_forecast :INFO : Writing rows to the database
-2018-09-05 11:52:27 : nws_forecast :INFO : Writing rows to the database
-2018-09-05 21:16:01 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:17:29 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:17:54 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:18:57 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:19:52 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:20:41 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:21:24 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:27:02 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 21:27:46 : usgs_creek_daily-WORKONUS :INFO : Writing rows to the database
-2018-09-05 22:34:59 : usgs_creek_hourly-WORKONUS :INFO : Writing rows to the database
-2018-09-05 22:50:42 : usgs_creek_hourly :INFO : Writing rows to the database
+2018-09-10 18:14:35 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+2018-09-11 00:07:58 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 00:08:06 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 00:10:52 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+2018-09-11 22:54:53 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 22:54:55 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 22:54:56 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+2018-09-11 22:58:43 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 22:58:46 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 23:00:01 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 23:00:29 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 23:00:38 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 23:00:55 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 23:00:57 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 23:00:58 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+2018-09-11 23:05:46 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 23:05:48 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 23:05:48 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+2018-09-11 23:09:36 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
+
+2018-09-11 23:09:38 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
+2018-09-11 23:09:38 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
