@@ -47,12 +47,12 @@ import requests
 import sqlite3
 
 
-def tempConversion(celsius):
+def temp_conversion(celsius):
     tempF = int(round(float(celsius) * 9/5 + 32))
     return tempF
 
 
-def setupRequest(days=7, startDate=None, endDate=None):
+def setup_request(days=7, startDate=None, endDate=None):
     # Define parameters for GET header
     if startDate:
         payload = {'format': 'json',
@@ -77,7 +77,7 @@ def setupRequest(days=7, startDate=None, endDate=None):
     return data
 
 
-def getData(data):
+def get_data(data):
 
     rows = []
 
@@ -93,22 +93,22 @@ def getData(data):
     return rows
 
 
-def sendToDatabase(rows):
+def send_to_database(rows):
     # Open or create Creek database
     conn = sqlite3.connect('canoeing.db')
     c = conn.cursor()
 
     logger.info('Writing rows to the database')
 
+    # Create or refresh table
+    c.execute('''
+    CREATE TABLE IF NOT EXISTS USGSCreekDaily ("Date" DATE PRIMARY KEY,
+        StreamFlowCubicFtSec REAL, WaterTempF REAL)''')
+
     for row in rows:
 
         if row[0] == "WaterTempF":
             row[2] = tempConversion(row[2])
-
-        # Create or refresh table
-        c.execute('''
-        CREATE TABLE IF NOT EXISTS USGSCreekDaily ("Date" DATE PRIMARY KEY,
-            StreamFlowCubicFtSec REAL, WaterTempF REAL)''')
 
         # Check if update or new row
         c.execute('''
@@ -160,9 +160,9 @@ if __name__ == "__main__":
 
     # r define specific dates. For whatever reason there is a gap in data
     # at the end of 2017 up to 3/15/18
-    start = '2018-03-01'
-    end = '2018-03-31'
+    start = '2018-01-01'
+    end = '2018-12-31'
 
-    data = setupRequest(startDate=start, endDate=end)
-    rows = getData(data)
-    sendToDatabase(rows)
+    data = setup_request(startDate=start, endDate=end)
+    rows = get_data(data)
+    send_to_database(rows)

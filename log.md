@@ -546,6 +546,72 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 [USGS largely refactored](exercises/creek/procedural)
 
+### Day 39, September 6th, Thursday:
+
+**Today's Progress**: 
+* Ran the rest of the Creek daily
+* Began refactoring WU historical
+
+**Thoughts**
+* Golf short game analogy is holding on strong. This is much less mentally taxing that writing the code in the first place. At least all of my code is still legible to me, but it takes a minute to remember what's what. That says something about writing imperative style code. 
+* It's just about practicing in order to get faster and think more in a certain way. No doubt the code gets faster to maintain by the end.
+
+**Questions**
+* Getting really curious about the web server side of all of this. Where does the codebase run from? How does it inform a front end?
+
+**Link(s) to work**
+[WU refactoring in progress](exercises/creek/procedural)
+
+### Day 40, September 8th, Saturday:
+
+**Today's Progress**: 
+* Refactored last bit of the original code for WU
+* Used urllib instead of Requests to encode URLs because I didn't actually want to make a GET request to the page, I just wanted to the encoded URLs
+
+**Thoughts**
+* Could keep doing cleanup forever - refactored function and variable names according to PEP8, that stuff actually isn't reported by the linter
+* Actually do need to figure out how to report on the creek hourly data set so that I can do my analysis and close out that section of the Coursera journey
+* I talked about PyBites, Talk Python to Me's course, Coursera's Machine Learning, Google's TensorFlow, more Treehouse training and then the whole wide world of front-end. Where do I go next?
+* I want to keep pushing on this stuff forever, but it's hard to keep everything in balance. There are things I've missed during these last weeks already, but I'm really questioning where the time comes from
+
+**Questions** 
+* I'm questioning when to just jump back into front end web development. It's clear that so much of what's going to be useful to me exists in the space - such as really be proficient with the basic Chrome developer tools, understand web servers (especially Apache) and just applying my knowledge of OOP and coding paradigms to JavaScript again.
+
+**Link(s) to work**
+[WU refactoring largely complete](exercises/creek/procedural)
+
+### Day Days 41-43, September 9th-11th, Sunday-Tuesday:
+
+**Today's Progress**: 
+* Tried to figure out a command line progress bar - minimal progress
+* Compacted the database
+* Did some creek hourly clean-up
+* Built the progress bar
+* A bunch of clean-up and fixing shit in creek hourly
+* Some last minute work database management. Loaded a model, which made sense and felt good.
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+[DB work and progress bar sort of installed](exercises/creek/procedural)
+
+### Day Day 44, September 12th, Wednesday:
+
+**Today's Progress**:
+* Going through Corey Schafer's OOP tutorials. Helpful!
+* Important info on using super(). to extend classes but keep the code DRY and reuse parent code
+ * Python OOP Tutorial 4: Inheritance - Creating Subclasses
+
+**Thoughts**
+* Class.method(instance) is the same as instance.method()
+
+**Questions** 
+* Learn about PR etiquette - what's the proper way to comment, submit, merge from master, merge into master, how do you handle situations where the codebase has changed since the PR and has to be remerged? How do you submit one little tweak?
+
+**Link(s) to work**
+
 ### Day X:
 
 **Today's Progress**: 
