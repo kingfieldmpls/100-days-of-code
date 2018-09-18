@@ -108,7 +108,7 @@ def send_to_database(rows):
     for row in rows:
 
         if row[0] == "WaterTempF":
-            row[2] = tempConversion(row[2])
+            row[2] = temp_conversion(row[2])
 
         # Check if update or new row
         c.execute('''
@@ -160,8 +160,8 @@ if __name__ == "__main__":
 
     # r define specific dates. For whatever reason there is a gap in data
     # at the end of 2017 up to 3/15/18
-    start = '2018-01-01'
-    end = '2018-12-31'
+    start = '2017-12-01'
+    end = '2018-03-05'
 
     data = setup_request(startDate=start, endDate=end)
     rows = get_data(data)

@@ -580,7 +580,7 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 [WU refactoring largely complete](exercises/creek/procedural)
 
-### Day Days 41-43, September 9th-11th, Sunday-Tuesday:
+### Days 41-43, September 9th-11th, Sunday-Tuesday:
 
 **Today's Progress**: 
 * Tried to figure out a command line progress bar - minimal progress
@@ -597,7 +597,7 @@ Need to review the data validation rules for different SQL implementations in or
 **Link(s) to work**
 [DB work and progress bar sort of installed](exercises/creek/procedural)
 
-### Day Day 44, September 12th, Wednesday:
+### Day 44, September 12th, Wednesday:
 
 **Today's Progress**:
 * Going through Corey Schafer's OOP tutorials. Helpful!
@@ -612,9 +612,56 @@ Need to review the data validation rules for different SQL implementations in or
 
 **Link(s) to work**
 
-### Day X:
+### Day 45, September 13th, Thursday:
 
-**Today's Progress**: 
+**Today's Progress**:
+* Attended Python Meet-up at Buzzfeed
+ 
+**Thoughts**
+* It's can be a very awkward community
+* Talks included:
+ * Writing cleaner code. It was a really great marker of time for how far I've come already. I knew almost all of the tools and best practices discussed. I marked "Eradicate" as a potential useful linting tool to check out.
+ * Talk on using Python to do data modeling with ARIMA. There was a whole lot of vocabulary I was hearing for the first time, so it was pretty hard to intimately follow. Learned about errors in time series and data bias. That was interesting.
+ * Using Geopandas and Follium for GIS. That was pretty interesting. The speaker appeared to be a U grad student. His demo showed using publicaly available GIS data (like parks and neighborhoods) to calculate the neighborhoods with the most parks, then visualized in a choropleth. Also a good demo of jupyter notebooks. 
+
+**Questions** 
+**Link(s) to work**
+
+### Day 46, September 15th, Saturday:
+
+**Today's Progress**:
+* Tough to fit in much with a busy start to the weekend and a show that night, but I got an hour of Corey Schafer and configuring my Sublime environment.
+
 **Thoughts**
 **Questions** 
 **Link(s) to work**
+
+### Day 47, September 16th, Sunday:
+
+**Today's Progress**:
+* Had to setup my Macbook since I left my laptop at work. Not too painful, and good to see how quickly I could apply what I learned to the Mac OS.
+ * In the process of setting up the Mac I learned about soft links and what python v. python3 and pip v. pip3 are things
+ * Setup new builds in Sublime text
+* Watched Kenneth Reitz's PyCon 2018 talk on pipenv - which was also a helpful history of package management in Python in general.
+
+**Thoughts**
+**Questions** 
+**Link(s) to work**
+
+### Day 48, September 17th, Monday:
+
+**Today's Progress**
+* I did it. I finished the Coursera course. Heck yes.
+* Fired Plot.ly back up and man oh man have they improved Chart Studio
+* Drummed up a quick script to write some SQL into a new table after doing some transformation
+* Learned about datetime functions in SQL
+
+**Thoughts**
+* I spent pretty much 30 days on the capstone project in self-directed study. That was a really fun thread to pull. I think I'll hop back into something more structured for a bit until the next logical project jumps out.
+* As I put a bow on the Coursera work, it was amazing how my ability to understand Charles' code as well as my impression of its quality changed over time.
+* I'm excited for the point that the project is at now to be a jumping off point for applying new knowledge at a later point in this journey.
+
+**Questions** 
+
+**Link(s) to work**
+[More or less the final version for now](exercises/creek/procedural)

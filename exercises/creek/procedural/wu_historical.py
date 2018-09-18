@@ -5,13 +5,8 @@
 # Where can I learn more about the specific browser (Firefox) settings
 # Add exceptions if the url isn't found or breaks somehow
 # curious to see how much time each iteration takes
-# how soon does data enter historical?
-# add comments to follow the progress
-# need exception when the historical table doesn't load to reload the table and
-# try again a few times
-# Double check all of the data, might have grabbed Precip Accum instead of Precip
-# Build a progress bar
-# Date parameter gathering should be sped up
+# TODO - Make data aggregate to the hour match the current db "New" version
+
 
 import logging
 import urllib.parse

@@ -27,7 +27,7 @@ metrics = {
 }
 
 # Enter any value for days back from current day - up to a max of 150. Set to None to run with specific dates
-days = 1
+days = 5
 
 # Or define specific dates. For whatever reason there is a gap in data at the end of 2017 up to 3/15/18
 start = '2010-01-01'

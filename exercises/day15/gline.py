@@ -32,7 +32,7 @@ print("Top 10 Oranizations")
 print(orgs)
 
 counts = dict()
-months = list()
+years = list()
 # cur.execute('SELECT id, guid,sender_id,subject_id,sent_at FROM Messages')
 for (message_id, message) in list(messages.items()):
     sender = message[1]
@@ -40,25 +40,25 @@ for (message_id, message) in list(messages.items()):
     if len(pieces) != 2 : continue
     dns = pieces[1]
     if dns not in orgs : continue
-    month = message[3][:7]
-    if month not in months : months.append(month)
-    key = (month, dns)
+    year = message[3][:4]
+    if year not in years : years.append(year)
+    key = (year, dns)
     counts[key] = counts.get(key,0) + 1
 
-months.sort()
+years.sort()
 # print counts
-# print months
+# print years
 
 fhand = open('gline.js','w')
-fhand.write("gline = [ ['Month'")
+fhand.write("gline = [ ['year'")
 for org in orgs:
     fhand.write(",'"+org+"'")
 fhand.write("]")
 
-for month in months:
-    fhand.write(",\n['"+month+"'")
+for year in years:
+    fhand.write(",\n['"+year+"'")
     for org in orgs:
-        key = (month, org)
+        key = (year, org)
         val = counts.get(key,0)
         fhand.write(","+str(val))
     fhand.write("]");
