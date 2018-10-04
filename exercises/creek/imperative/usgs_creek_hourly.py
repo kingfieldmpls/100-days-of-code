@@ -28,7 +28,11 @@ metrics = {
 
 # Enter any value for days back from current day - up to a max of 150. Set to None to run with specific dates
 <<<<<<< HEAD
+<<<<<<< HEAD
 days = 5
+=======
+days = 1
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 days = 1
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8

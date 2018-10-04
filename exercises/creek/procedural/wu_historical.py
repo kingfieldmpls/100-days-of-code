@@ -6,9 +6,12 @@
 # Add exceptions if the url isn't found or breaks somehow
 # curious to see how much time each iteration takes
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO - Make data aggregate to the hour match the current db "New" version
 
 =======
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 # how soon does data enter historical?
 # add comments to follow the progress
 # need exception when the historical table doesn't load to reload the table and
@@ -16,6 +19,9 @@
 # Double check all of the data, might have grabbed Precip Accum instead of Precip
 # Build a progress bar
 # Date parameter gathering should be sped up
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 
 import logging

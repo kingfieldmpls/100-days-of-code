@@ -109,7 +109,11 @@ def send_to_database(rows):
 
         if row[0] == "WaterTempF":
 <<<<<<< HEAD
+<<<<<<< HEAD
             row[2] = temp_conversion(row[2])
+=======
+            row[2] = tempConversion(row[2])
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
             row[2] = tempConversion(row[2])
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -165,8 +169,13 @@ if __name__ == "__main__":
     # r define specific dates. For whatever reason there is a gap in data
     # at the end of 2017 up to 3/15/18
 <<<<<<< HEAD
+<<<<<<< HEAD
     start = '2018-03-05'
     end = '2018-09-21'
+=======
+    start = '2018-01-01'
+    end = '2018-12-31'
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
     start = '2018-01-01'
     end = '2018-12-31'

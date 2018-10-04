@@ -33,7 +33,11 @@ print(orgs)
 
 counts = dict()
 <<<<<<< HEAD
+<<<<<<< HEAD
 years = list()
+=======
+months = list()
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 months = list()
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -44,6 +48,7 @@ for (message_id, message) in list(messages.items()):
     if len(pieces) != 2 : continue
     dns = pieces[1]
     if dns not in orgs : continue
+<<<<<<< HEAD
 <<<<<<< HEAD
     year = message[3][:4]
     if year not in years : years.append(year)
@@ -57,6 +62,8 @@ years.sort()
 fhand = open('gline.js','w')
 fhand.write("gline = [ ['year'")
 =======
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
     month = message[3][:7]
     if month not in months : months.append(month)
     key = (month, dns)
@@ -68,21 +75,30 @@ months.sort()
 
 fhand = open('gline.js','w')
 fhand.write("gline = [ ['Month'")
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 for org in orgs:
     fhand.write(",'"+org+"'")
 fhand.write("]")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 for year in years:
     fhand.write(",\n['"+year+"'")
     for org in orgs:
         key = (year, org)
 =======
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 for month in months:
     fhand.write(",\n['"+month+"'")
     for org in orgs:
         key = (month, org)
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
         val = counts.get(key,0)
         fhand.write(","+str(val))

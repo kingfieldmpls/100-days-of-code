@@ -14,7 +14,11 @@
 ### Day 2: July 29th, 2018 - Sunday
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -23,7 +27,11 @@
 
 **Thoughts**
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardly support any methods. 
+=======
+* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 * Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -44,17 +52,23 @@
 ### Day 3: July 30th, 2018 - Monday
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
 * Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
 
 **Thoughts**
 * Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit hole. 
 =======
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 **Today's Progress**: 
 * Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
 
 **Thoughts**
 * Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit how. 
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Networking still confuses the hell out of me. I think it's largely a vocabulary issue. I want to unlock the mysteries, but I also question the usefulness considering how many amazing shortcuts already exist to do the tasks we want to do.
 
@@ -67,7 +81,11 @@
 ### Day 4: July 31st, 2018 - Tuesday
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -89,7 +107,11 @@
 
 ### Day 5, August 1st, 2018 - Wednesday:
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -110,7 +132,11 @@
 ### Day 6, August 2nd, 2018 - Thursday
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -131,7 +157,11 @@
 ### Day 7, August 3rd, 2018 - Friday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -150,7 +180,11 @@
 ### Day 8, August 4th, 2018 - Saturday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -170,7 +204,11 @@
 ### Day 9, August 5th, 2018 - Sunday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -188,7 +226,11 @@
 ### Day 10, August 6th, 2018 - Monday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -206,7 +248,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 11, August 8th, 2018 - Wednesday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -224,7 +270,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 12, August 9th, 2018 - Thursday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -242,7 +292,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 13/14, August 10th/11th, 2018 - Friday/Saturday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -261,7 +315,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 15, August 12th, 2018 - Sunday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -284,7 +342,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 16, August 13th, 2018 - Monday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress**
+=======
+**Today's Progress**:
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**:
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -304,7 +366,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 17, August 14th, 2018 - Tuesday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -331,7 +397,11 @@ Need to review the data validation rules for different SQL implementations in or
 ### Day 18, August 15th, 2018 - Wednesday:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 =======
 **Today's Progress**: 
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
@@ -340,6 +410,7 @@ Need to review the data validation rules for different SQL implementations in or
 * Read Beautiful Soup docs and tried desperately to quickly grab table data
 * Realized Beautiful Soup doesn't load JavaScript, so I'll need Selenium to grab what I need to scrape
 * Wand and ImageMagick
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 **Thoughts**
@@ -1246,6 +1317,164 @@ Link to Pomodoro once I figure that out
 * Tell me more about __package__ - it looks like you can set this variable to help figure out how to walk down the tree
 
 **Link(s) to work**
+=======
+
+**Thoughts**
+* Today I didn't really 'accomplish' anything, but I did put the time in. I learned a whole lot about the Beautiful Soup package and a little about Selenium.
+* This whole thing is getting really addictive. There is still the crushing feeling of all of the things I don't know, but I'm getting closer to the point where I can do meaningful things relatively quickly, and basically know my resources for learning completely new things.
+* We're getting pretty far afield here, I think it may be time to reset some of the goals and next steps
+
+**Questions** 
+* Learn how to use the Selenium package
+* Learn more about Pandas dataframes for quickly making sense of tables
+
+**Link(s) to work**
+* [Couple of tweaks and some early thought starters](exercises/creek)
+
+### Day 19, August 16th, 2018 - Thursday:
+
+**Today's Progress**: 
+* Got Selenium up and running
+* Scraped the data I was looking for
+
+**Thoughts**
+* I'm fascinated by what possibilities Selenium opens up from an automation standpoint
+* It is really, really easy to hand Selenium objects off to Beautiful Soup
+
+**Questions** 
+* How can I get rid of ads and just generally speed up page loads?
+* What's the default behavior for page load? Can I set a time for when I think the DOM element will be ready?
+* I need ot spend more time with Selenium's documentation
+
+**Link(s) to work**
+* [Start of scraper](exercises/creek)
+
+### Day 20, August 17th, 2018 - Friday:
+
+**Today's Progress**: 
+* Successfully grabbed WU data from the website and wrote to the DB
+* Did some datetime magic, and figured out how to use a Firefox profile with add-ons installed
+
+**Thoughts**
+* I'm getting some timeouts with Selenium at home, I'm not 100% sure how to address those
+* I still don't feel like I have a good handle on Selenium's documentation
+* Sometimes progress is still slow going, but I'm not really getting completely stuck on anything
+
+**Questions** 
+* When would I want to use generators?
+* What does iter_tools do?
+* I still don't have my mind wrapped around list comprehensions
+* Other reserved words I don't use much [yield, assert, lambda
+* Add timing into specific components of the script
+* Move from procedural to OOP
+
+**Link(s) to work**
+* [Successful pulling and writing to DB](exercises/creek)
+
+### Day 21, August 18th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Cooking with gas with the weather scraper. Grabbed a whole year with no crashes. Added some exception handling.
+* Watched videos on lambda functions, map functions and history of recursion
+
+**Thoughts**
+* I'm already worried about what I'll be able to do in 100 days. What about front end? What about mastering OOP and wrting more Pythonic code? What about ML? What about general math and stats knowledge? What about pandas and numpy?
+
+**Questions** 
+* The meet ups are fine. How do I get more immersed in local community?
+
+**Link(s) to work**
+* [Scraper is procedural, but well tuned](exercises/creek)
+
+### Day 22/23, August 19th/20th, 2018 - Sunday/Monday:
+
+**Today's Progress**: 
+* Flask, Pyramid and Django examples and reading. I still like Flask
+* Spent more time in Plotly and legit figured out where they store the JSON and Python. My goodness. Got a decent looking multiple axis chart together.
+* Got WU updated since 2010
+* Working on the best way to map JSON to a database
+* Expanding NOAA dataset
+* Got NWS pull pretty much put together, just need to finish plumbing into the DB
+* Also did more research on discharge calculations and wrote those into the notes
+* Learned that pushing to forked repos doesn't count for anything
+
+**Thoughts**
+* I'm actually just gathering data here, but it may have use at work on the near future
+* Getting anxious to visualize and wrap up this part of the coursera program and move into data science, machine learning, better OOP practices and web frameworks
+
+**Questions** 
+* When exactly would you want to use collections.namedtuple and how is it used?
+* Why ORMs? Isn't writing SQL statements using a connector way easier?
+* Need to figure out git.ignore
+
+**Link(s) to work**
+* [NOAA and NWS updated](exercises/creek)
+
+### Day 24/25, August 21st/22nd, 2018 - Tuesday/Wednesday:
+
+**Today's Progress**: 
+* Finished plumbing NWS
+* Learned about PHP role based access control
+* Setup linting with Flake8
+* Found out I can fire dumb logs into /nul/ of any folder to make it disappear
+* Finally read PEP8 https://www.python.org/dev/peps/pep-0008/ (mostly)
+
+**Thoughts**
+* My NWS forecast grid expired! Which makes it really hard to write the app, but nice to have the exception to reference
+* Timer decorators
+* \* unpacks tuples/lists (positional arguments) and \*\* unpacks dictionaries (keyword arguments)
+* I should really ready this - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control#ch01-getting-started
+
+**Questions**
+* Learn more about roles in Python web frameworks
+* I think I'd like to tackle Flask soon, but ML and data science too! Ah!
+* More functional programming: map, filter, itertools, functools, generators and decorators 
+* Different types of imports - absolute v. explicit relative
+
+**Link(s) to work**
+* [NWS updated, numerous refinements and linted](exercises/creek)
+
+### Day 26, August 24th, 2018 - Friday:
+
+**Today's Progress**: 
+* Playing with refactoring some code
+* Testing performance a couple of ways
+* Learning some basics about importing, like how sys.path is resolved
+*    It's looking in current dir first
+*    There is a PYTHONPATH system variable that can be defined. Need to learn more about that.
+* There is a difference between standard library and built-in modules
+*    sys.builtin_module_names
+
+**Thoughts**
+* Turns out it would be a huge pain to turn my imperative statements into functions. Just for kicks I'd like to give it a try just to see how performance nets out.
+* Man does an hour go by like nothing
+
+**Questions** 
+* I still don't really understand namespaces, packages and what the fine points of absolute, explicit and relative imports are.
+* I think this is going to help me - https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+* tell me more about __init__.py
+* How are import name conflicts resolved?
+
+**Link(s) to work**
+* [Minimal updates. Some linting](exercises/creek)
+
+### Day 27, August 25th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Big lessoned learned, if you're calling a script directly, you can't traverse above it's current directly unless you've defined it in PYTHONPATH or sys.path. If you start something higher up the hierarchy and that file need to import back up the tree, you can do that, but it's best to use absolute imports and walk all the way back down the tree
+* It seems so simple now, but running a file directly just imports it as "__main__". That's all.
+* Flake8 throws a redefinition error if I reassign something I've imported from another module (function, variable, etc)
+
+**Thoughts**
+* You can just import any object, right?
+* An hour really is nothing. The thought are all there, but apparently it takes me about an hour to start the engines and then any more time I would need after that to really rev the engines.
+* Want to get back on Slack tomorrow
+
+**Questions** 
+* Tell me more about __package__ - it looks like you can set this variable to help figure out how to walk down the tree
+
+**Link(s) to work**
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 [Some little sample files to figure out imports](exercises)
 
 
@@ -1439,5 +1668,8 @@ Link to Pomodoro once I figure that out
 **Today's Progress**: 
 **Thoughts**
 **Questions** 
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 **Link(s) to work**

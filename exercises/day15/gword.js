@@ -1,5 +1,6 @@
 gword = [{text: 'sakai', size: 100},
 <<<<<<< HEAD
+<<<<<<< HEAD
 {text: 'building', size: 71},
 {text: 'tool', size: 27},
 {text: 'with', size: 26},
@@ -100,6 +101,8 @@ gword = [{text: 'sakai', size: 100},
 {text: 'meeting', size: 20},
 {text: 'server', size: 20}
 =======
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 {text: 'with', size: 36},
 {text: 'tool', size: 35},
 {text: 'error', size: 32},
@@ -199,5 +202,8 @@ gword = [{text: 'sakai', size: 100},
 {text: 'settings', size: 20},
 {text: 'longest', size: 20},
 {text: 'sakaiperson', size: 20}
+<<<<<<< HEAD
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
+=======
 >>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 ];
