@@ -13,12 +13,20 @@
 
 ### Day 2: July 29th, 2018 - Sunday
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Finished Coursera's University of Michigan Python Course - Course 2: Python Data Structures
 * Started Courera's University of Michigan Python Course - Course 3: Using Python to Access the Web: Weeks 1 and 2
 
 **Thoughts**
+<<<<<<< HEAD
 * Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardly support any methods. 
+=======
+* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Figured out the difference between list.sort() and sorted()
 * Really enjoyed watching interviews with the creators of jQuery and C++ and the "discoverer" of JSON.
 * Also learned about "greedy" and "non-greedy" regex statements
@@ -35,11 +43,19 @@
 
 ### Day 3: July 30th, 2018 - Monday
 
+<<<<<<< HEAD
 **Today's Progress** 
 * Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
 
 **Thoughts**
 * Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit hole. 
+=======
+**Today's Progress**: 
+* Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
+
+**Thoughts**
+* Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit how. 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Networking still confuses the hell out of me. I think it's largely a vocabulary issue. I want to unlock the mysteries, but I also question the usefulness considering how many amazing shortcuts already exist to do the tasks we want to do.
 
 **Questions**
@@ -50,7 +66,11 @@
 
 ### Day 4: July 31st, 2018 - Tuesday
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed the lectures, quiz and one of the two activities for "Using Python to Access Web Data"
 * I'll need to finish up the second example and then reviewing to take any other questions down and make sure I understand what it is I'm doing.
 
@@ -68,7 +88,11 @@
 * [More Day 4 Exercises](exercises/day4a.py)
 
 ### Day 5, August 1st, 2018 - Wednesday:
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed BeautifulSoup activities from "Using Python to Access Web Data"
 * Completed the XML chapter from "Using Pything to Access Web Data"
 
@@ -85,7 +109,11 @@
 
 ### Day 6, August 2nd, 2018 - Thursday
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Finished course 3 "Using Python to Access Web Data" in the Coursera Python speciality. 
 
 **Thoughts**
@@ -102,7 +130,11 @@
 
 ### Day 7, August 3rd, 2018 - Friday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed chapter 1 and part of chapter 2 of "Using Databases with Pythong"
 
 **Thoughts**
@@ -117,7 +149,11 @@
 
 ### Day 8, August 4th, 2018 - Saturday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed the "Basic SQL" portion of Coursera's "Python for Everybody".
 
 **Thoughts**
@@ -133,7 +169,11 @@
 
 ### Day 9, August 5th, 2018 - Sunday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed the second SQL chapter from "Python for Everybody" - minus the db example.
 
 **Thoughts**
@@ -147,7 +187,11 @@
 
 ### Day 10, August 6th, 2018 - Monday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed practical example for Coursera/Python/SQL. 
 
 **Thoughts**
@@ -161,7 +205,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 11, August 8th, 2018 - Wednesday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Complete "Many to Many Relationships in SQL"
 
 **Thoughts**
@@ -175,7 +223,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 12, August 9th, 2018 - Thursday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Completed course 4, "Using Databases with Python", which just leaves the capstone.
 
 **Thoughts**
@@ -189,7 +241,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 13/14, August 10th/11th, 2018 - Friday/Saturday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Man, Fridays are a thing, eh? I crashed hard just after the one hour mark. Completed most of the lectures for the capstone project week 2. 
 
 **Thoughts**
@@ -204,7 +260,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 15, August 12th, 2018 - Sunday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Ok, now we're starting to have fun. I did complete the "Spidering and Modeling Email Data" chapter, but who seriously cares? Way, way, way too passive. I'm still trying to glean what I can from reading the code and watching the walk through examples, but it's really not super helpful.
 * Began in earnest on my Minnehaha Creek watershed app. This is going to be fun. I read all of the USGS documentation during nap time, and tonight successfully read in and parsed all of the info I need.
 
@@ -223,7 +283,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 16, August 13th, 2018 - Monday:
 
+<<<<<<< HEAD
 **Today's Progress**
+=======
+**Today's Progress**:
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Now we're cooking with gas. Minnehaha Creek data from USGS is all plumbed up and writing to the database, and I think all of the functionality I want (pretty much) is there. The one addition might be to look at last updated for the runs. I also would consider refactoring into OOP just for funzies, not because it actually does any work for me.
 * I also identified NOAA as the source of my weather data. It turns out NOAA is the data source behind the national service and they have a fairly robust API available for free. It took quite a bit of time to figure out which values I needed to grab, but I did eventually get it done. I need to work out how pagination is going to work and then I can write everything to the database.
 
@@ -239,7 +303,11 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 17, August 14th, 2018 - Tuesday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Got openweather api and dark sky api weather hooked up to the db
 * Spent a lot of time reading about capabilities and different methodologies. It's obvious NOAA rules them all.
 
@@ -262,12 +330,17 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 18, August 15th, 2018 - Wednesday:
 
+<<<<<<< HEAD
 **Today's Progress** 
+=======
+**Today's Progress**: 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 * Did some prioritizing on the creek project
 * Read more docs on weather APIs
 * Read Beautiful Soup docs and tried desperately to quickly grab table data
 * Realized Beautiful Soup doesn't load JavaScript, so I'll need Selenium to grab what I need to scrape
 * Wand and ImageMagick
+<<<<<<< HEAD
 
 **Thoughts**
 * Today I didn't really 'accomplish' anything, but I did put the time in. I learned a whole lot about the Beautiful Soup package and a little about Selenium.
@@ -1016,4 +1089,355 @@ Link to Pomodoro once I figure that out
 
 **Questions** 
 
+=======
+
+**Thoughts**
+* Today I didn't really 'accomplish' anything, but I did put the time in. I learned a whole lot about the Beautiful Soup package and a little about Selenium.
+* This whole thing is getting really addictive. There is still the crushing feeling of all of the things I don't know, but I'm getting closer to the point where I can do meaningful things relatively quickly, and basically know my resources for learning completely new things.
+* We're getting pretty far afield here, I think it may be time to reset some of the goals and next steps
+
+**Questions** 
+* Learn how to use the Selenium package
+* Learn more about Pandas dataframes for quickly making sense of tables
+
+**Link(s) to work**
+* [Couple of tweaks and some early thought starters](exercises/creek)
+
+### Day 19, August 16th, 2018 - Thursday:
+
+**Today's Progress**: 
+* Got Selenium up and running
+* Scraped the data I was looking for
+
+**Thoughts**
+* I'm fascinated by what possibilities Selenium opens up from an automation standpoint
+* It is really, really easy to hand Selenium objects off to Beautiful Soup
+
+**Questions** 
+* How can I get rid of ads and just generally speed up page loads?
+* What's the default behavior for page load? Can I set a time for when I think the DOM element will be ready?
+* I need ot spend more time with Selenium's documentation
+
+**Link(s) to work**
+* [Start of scraper](exercises/creek)
+
+### Day 20, August 17th, 2018 - Friday:
+
+**Today's Progress**: 
+* Successfully grabbed WU data from the website and wrote to the DB
+* Did some datetime magic, and figured out how to use a Firefox profile with add-ons installed
+
+**Thoughts**
+* I'm getting some timeouts with Selenium at home, I'm not 100% sure how to address those
+* I still don't feel like I have a good handle on Selenium's documentation
+* Sometimes progress is still slow going, but I'm not really getting completely stuck on anything
+
+**Questions** 
+* When would I want to use generators?
+* What does iter_tools do?
+* I still don't have my mind wrapped around list comprehensions
+* Other reserved words I don't use much [yield, assert, lambda
+* Add timing into specific components of the script
+* Move from procedural to OOP
+
+**Link(s) to work**
+* [Successful pulling and writing to DB](exercises/creek)
+
+### Day 21, August 18th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Cooking with gas with the weather scraper. Grabbed a whole year with no crashes. Added some exception handling.
+* Watched videos on lambda functions, map functions and history of recursion
+
+**Thoughts**
+* I'm already worried about what I'll be able to do in 100 days. What about front end? What about mastering OOP and wrting more Pythonic code? What about ML? What about general math and stats knowledge? What about pandas and numpy?
+
+**Questions** 
+* The meet ups are fine. How do I get more immersed in local community?
+
+**Link(s) to work**
+* [Scraper is procedural, but well tuned](exercises/creek)
+
+### Day 22/23, August 19th/20th, 2018 - Sunday/Monday:
+
+**Today's Progress**: 
+* Flask, Pyramid and Django examples and reading. I still like Flask
+* Spent more time in Plotly and legit figured out where they store the JSON and Python. My goodness. Got a decent looking multiple axis chart together.
+* Got WU updated since 2010
+* Working on the best way to map JSON to a database
+* Expanding NOAA dataset
+* Got NWS pull pretty much put together, just need to finish plumbing into the DB
+* Also did more research on discharge calculations and wrote those into the notes
+* Learned that pushing to forked repos doesn't count for anything
+
+**Thoughts**
+* I'm actually just gathering data here, but it may have use at work on the near future
+* Getting anxious to visualize and wrap up this part of the coursera program and move into data science, machine learning, better OOP practices and web frameworks
+
+**Questions** 
+* When exactly would you want to use collections.namedtuple and how is it used?
+* Why ORMs? Isn't writing SQL statements using a connector way easier?
+* Need to figure out git.ignore
+
+**Link(s) to work**
+* [NOAA and NWS updated](exercises/creek)
+
+### Day 24/25, August 21st/22nd, 2018 - Tuesday/Wednesday:
+
+**Today's Progress**: 
+* Finished plumbing NWS
+* Learned about PHP role based access control
+* Setup linting with Flake8
+* Found out I can fire dumb logs into /nul/ of any folder to make it disappear
+* Finally read PEP8 https://www.python.org/dev/peps/pep-0008/ (mostly)
+
+**Thoughts**
+* My NWS forecast grid expired! Which makes it really hard to write the app, but nice to have the exception to reference
+* Timer decorators
+* \* unpacks tuples/lists (positional arguments) and \*\* unpacks dictionaries (keyword arguments)
+* I should really ready this - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control#ch01-getting-started
+
+**Questions**
+* Learn more about roles in Python web frameworks
+* I think I'd like to tackle Flask soon, but ML and data science too! Ah!
+* More functional programming: map, filter, itertools, functools, generators and decorators 
+* Different types of imports - absolute v. explicit relative
+
+**Link(s) to work**
+* [NWS updated, numerous refinements and linted](exercises/creek)
+
+### Day 26, August 24th, 2018 - Friday:
+
+**Today's Progress**: 
+* Playing with refactoring some code
+* Testing performance a couple of ways
+* Learning some basics about importing, like how sys.path is resolved
+*    It's looking in current dir first
+*    There is a PYTHONPATH system variable that can be defined. Need to learn more about that.
+* There is a difference between standard library and built-in modules
+*    sys.builtin_module_names
+
+**Thoughts**
+* Turns out it would be a huge pain to turn my imperative statements into functions. Just for kicks I'd like to give it a try just to see how performance nets out.
+* Man does an hour go by like nothing
+
+**Questions** 
+* I still don't really understand namespaces, packages and what the fine points of absolute, explicit and relative imports are.
+* I think this is going to help me - https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+* tell me more about __init__.py
+* How are import name conflicts resolved?
+
+**Link(s) to work**
+* [Minimal updates. Some linting](exercises/creek)
+
+### Day 27, August 25th, 2018 - Saturday:
+
+**Today's Progress**: 
+* Big lessoned learned, if you're calling a script directly, you can't traverse above it's current directly unless you've defined it in PYTHONPATH or sys.path. If you start something higher up the hierarchy and that file need to import back up the tree, you can do that, but it's best to use absolute imports and walk all the way back down the tree
+* It seems so simple now, but running a file directly just imports it as "__main__". That's all.
+* Flake8 throws a redefinition error if I reassign something I've imported from another module (function, variable, etc)
+
+**Thoughts**
+* You can just import any object, right?
+* An hour really is nothing. The thought are all there, but apparently it takes me about an hour to start the engines and then any more time I would need after that to really rev the engines.
+* Want to get back on Slack tomorrow
+
+**Questions** 
+* Tell me more about __package__ - it looks like you can set this variable to help figure out how to walk down the tree
+
+**Link(s) to work**
+[Some little sample files to figure out imports](exercises)
+
+
+### Day 28-30, August 26th - 28th - Sunday - Tuesday:
+
+**Today's Progress**: 
+* Reading up on generators, decorators and context managers - thanks PyCon AU 2018
+* Using PIL and Tesseract
+* Using help('string') is like being in the help interface and issuing a command - neat
+* PIP names are often different from their actual module names you can import
+
+**Thoughts**
+* Really just need a lot more time practicing writing functions. My whole Coursera thing was great for a lot of reasons, but getting practice thinking about actual design and higher level objects wasn't a thing that happened.
+* Positional arguments have to come before keyword arguments. If you provide defaults, the arguments are optional.
+
+**Questions** 
+* Where can you view help for functions and what arguments can be passed and if they're positional or keyword and if they're required or not from the command line?
+* What are the finer points of keyword and positional arguments? If a KW arguments is None, can you just pass in arguments as if they were positional? If you set default arguments for keyword arguments, how do you overwrite those? 
+* Can you have required keyword arguments? Yes, PEP 3102, use a *
+* Read more about how docstrings work for individual lines in code, functions, methods within classes, etc.
+* Using Vi or Vim
+* Ghostscript, OpenVC, textract, Pandas, my god the list just keeps growing
+* How do you install from tar.gz?
+
+**Link(s) to work**
+
+### Day 31, August 29th, Wednesday:
+
+**Today's Progress**: 
+* Got the new version of Tesseract 4 running!
+* Learned how to basically use GIMP
+* Spent time in Wand and pytesseract learning more of the libraries
+* Read quite a big about ImageMagick and OCR
+* Going into OpenCV and Numpy - why not?!
+* Finally got back to doing some work on the creek project - I really suck at object oriented programming
+
+**Thoughts**
+* Still need to figure out pre-processing of an image - how to do it efficiently
+* Want to setup a config file for tesseract
+
+**Questions** 
+* What are the advantages to running Tesseract from the command line?
+* How do you train tesseract?
+* Is it weird to mix local and global scope of variables, or is it OK to initialize and then run with the new variable keeping track locally?
+
+**Link(s) to work**
+[Some progress back on creek, but I need to map logic again](exercises/creek/procedural)
+
+### Day 32/33, August 30th/31st, Thursday/Friday:
+
+**Today's Progress**:
+* Finally wrapped up turning all my imperative statements in one NOAA script into functions. It didn't actually add any performance, but it helped me get more practiced in this sort of design. My brain is coming around.
+
+**Thoughts**
+* Felt good to be back in the main project again. It's amazing how quickly you loose momentum if you change gears onto a different project.
+* Still a bit daunted by all of the basics left to cover and getting anxious to move onto the next project, but dedicated to crossing the finish line on this one.
+
+**Questions** 
+* Time to put on the finishing touches:
+ * Logging
+ * Unit testing
+ * Docstrings
+ * Command line arguments
+
+**Link(s) to work**
+[Mostly completed refactoring one script](exercises/creek/procedural)
+
+### Day 34/35, September 1st/2nd, Saturday/Sunday:
+
+**Today's Progress**: 
+* Cory Schafer is just the absolute best. I watched both of his videos on logging 1+ times.
+ * https://www.youtube.com/watch?v=jxmzY9soFXg
+* Read the "Basic Python tutorial" and other major portions from Python.org documentation
+ * https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+ * https://docs.python.org/3/library/logging.html#logging.Formatter
+  * Esp. 16.6.7. LogRecord attributes
+* Read the foundational PEP on docstrings, but it seems like the community has adopted a whole host of other conventoins by this point - https://www.python.org/dev/peps/pep-0257/
+* Figured how how to handle exceptions with logging
+ * Services like MySQL and Requests have methods built in to help you catch exceptions in real time without have to try too hard to identify them yourself
+
+**Thoughts**
+* Formatting logs uses the old style %s which is very annoying
+ * Truncating and padding using -5.5s is confusing. Can you format adding timestaps with more modern string formatting, or even f strings?
+
+**Questions**
+* When do you want to use stdout v. a log file? Or both?
+* What are good visualizations tools for log files?
+* What's a goog Sublime course for Windows? It looks like Corey has a thing.
+ * https://www.youtube.com/watch?v=9FPFogHkgOc
+* Best ways to add timestamp formatting in logs?
+* Where is rccron.log hanging out?
+* It sounds like Google and NumPy have their own style of docstrings. What all is convention. Like when do you write about exceptions. And when do you mention if a parameter is required, or what a default value is? How verbose do you need to be when the output of the script is obvious?
+
+**Link(s) to work**
+[Docstrings complete](exercises/creek/procedural)
+
+### Day 36/37/38, September 3rd/4th/5th, Monday/Tuesday/Wednesday:
+
+**Today's Progress**: 
+* Learning about unittest
+* Requires test_[moduleName]
+* Read through pytest - seems better
+* Finished converting NWS forecast to procedural
+* Refactored USGS data sources - just WU remains
+
+**Thoughts**
+* Need to watch all of the Corey Schafer OOP vids
+* Take a look at pytest for comparison
+* Doing cleanup and maintenance takes a lot longer than just making something work
+* Getting code "production ready" is really where the "work" comes in
+
+**Questions** 
+* what about PDB again?
+* What are all of the Python command line arguments? -m for example
+* How do I use the Sublime multi-cursor?
+* from unittest.mock import patch seems important for simulating pulls from APIs
+* Timing completion of each function call
+* Creating progress bars in the command line
+
+**Link(s) to work**
+[USGS largely refactored](exercises/creek/procedural)
+
+### Day 39, September 6th, Thursday:
+
+**Today's Progress**: 
+* Ran the rest of the Creek daily
+* Began refactoring WU historical
+
+**Thoughts**
+* Golf short game analogy is holding on strong. This is much less mentally taxing that writing the code in the first place. At least all of my code is still legible to me, but it takes a minute to remember what's what. That says something about writing imperative style code. 
+* It's just about practicing in order to get faster and think more in a certain way. No doubt the code gets faster to maintain by the end.
+
+**Questions**
+* Getting really curious about the web server side of all of this. Where does the codebase run from? How does it inform a front end?
+
+**Link(s) to work**
+[WU refactoring in progress](exercises/creek/procedural)
+
+### Day 40, September 8th, Saturday:
+
+**Today's Progress**: 
+* Refactored last bit of the original code for WU
+* Used urllib instead of Requests to encode URLs because I didn't actually want to make a GET request to the page, I just wanted to the encoded URLs
+
+**Thoughts**
+* Could keep doing cleanup forever - refactored function and variable names according to PEP8, that stuff actually isn't reported by the linter
+* Actually do need to figure out how to report on the creek hourly data set so that I can do my analysis and close out that section of the Coursera journey
+* I talked about PyBites, Talk Python to Me's course, Coursera's Machine Learning, Google's TensorFlow, more Treehouse training and then the whole wide world of front-end. Where do I go next?
+* I want to keep pushing on this stuff forever, but it's hard to keep everything in balance. There are things I've missed during these last weeks already, but I'm really questioning where the time comes from
+
+**Questions** 
+* I'm questioning when to just jump back into front end web development. It's clear that so much of what's going to be useful to me exists in the space - such as really be proficient with the basic Chrome developer tools, understand web servers (especially Apache) and just applying my knowledge of OOP and coding paradigms to JavaScript again.
+
+**Link(s) to work**
+[WU refactoring largely complete](exercises/creek/procedural)
+
+### Day Days 41-43, September 9th-11th, Sunday-Tuesday:
+
+**Today's Progress**: 
+* Tried to figure out a command line progress bar - minimal progress
+* Compacted the database
+* Did some creek hourly clean-up
+* Built the progress bar
+* A bunch of clean-up and fixing shit in creek hourly
+* Some last minute work database management. Loaded a model, which made sense and felt good.
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+[DB work and progress bar sort of installed](exercises/creek/procedural)
+
+### Day Day 44, September 12th, Wednesday:
+
+**Today's Progress**:
+* Going through Corey Schafer's OOP tutorials. Helpful!
+* Important info on using super(). to extend classes but keep the code DRY and reuse parent code
+ * Python OOP Tutorial 4: Inheritance - Creating Subclasses
+
+**Thoughts**
+* Class.method(instance) is the same as instance.method()
+
+**Questions** 
+* Learn about PR etiquette - what's the proper way to comment, submit, merge from master, merge into master, how do you handle situations where the codebase has changed since the PR and has to be remerged? How do you submit one little tweak?
+
+**Link(s) to work**
+
+### Day X:
+
+**Today's Progress**: 
+**Thoughts**
+**Questions** 
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 **Link(s) to work**

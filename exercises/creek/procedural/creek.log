@@ -27,6 +27,7 @@
 
 2018-09-11 23:09:38 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
 2018-09-11 23:09:38 : usgs_creek_hourly_WORKONME :INFO : Writing rows to the database
+<<<<<<< HEAD
 2018-09-13 12:00:23 : usgs_creek_hourly_WORKONME :INFO : Setting up report ...
 
 2018-09-13 12:00:26 : usgs_creek_hourly_WORKONME :INFO : Getting data ...
@@ -364,3 +365,5 @@ Traceback (most recent call last):
     r.raise_for_status()
 TypeError: 'str' object is not callable
 2018-10-02 13:24:16 : noaa_historical :INFO : Grabbing 1 through 1 of 1 records
+=======
+>>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
