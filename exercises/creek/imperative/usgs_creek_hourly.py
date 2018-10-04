@@ -27,15 +27,7 @@ metrics = {
 }
 
 # Enter any value for days back from current day - up to a max of 150. Set to None to run with specific dates
-<<<<<<< HEAD
-<<<<<<< HEAD
 days = 5
-=======
-days = 1
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
-days = 1
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 
 # Or define specific dates. For whatever reason there is a gap in data at the end of 2017 up to 3/15/18
 start = '2010-01-01'

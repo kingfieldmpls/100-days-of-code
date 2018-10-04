@@ -26,8 +26,6 @@ import os
 import requests
 import sqlite3
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 metrics = {'PRCP': 'PrecipInches',
            'TMAX': 'TempF',
            'SNOW': 'SnowfallInches',
@@ -43,10 +41,6 @@ count =1
 offset =1
 limit = 1
 
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 
 def setup_request(fromDate, toDate, offset=1, limit=250):
     """ Makes API call to NOAA enpoint and returns JSON data.
@@ -89,15 +83,9 @@ def setup_request(fromDate, toDate, offset=1, limit=250):
     except Exception:
         logger.exception('API Call Failed')
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     print(r.text)
     print(type(r.text))
 
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
     data = json.loads(r.text)
 
     return data
@@ -182,22 +170,6 @@ def send_to_database(rows):
 
 # Run main program here
 if __name__ == "__main__":
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-    # Setup logging to file and stdout
-    logging.basicConfig(filename='creek.log', level=logging.INFO,
-                        format='%(asctime)-.19s : %(module)s :'
-                               '%(levelname)s : %(message)s')
-    logger = logging.getLogger(__file__)
-    logger.addHandler(logging.StreamHandler())
-
-<<<<<<< HEAD
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
     # Add metrics:
     # PRCP = Precipitation mm or inches as per user preference,
     #        inches to hundredths
@@ -205,24 +177,9 @@ if __name__ == "__main__":
     # SNWD = Snow depth mm or inches as per user preference inches
     # TMAX = Maximum  temperature  (Fahrenheit  or  Celsius  as  per
     #        user  preference,  Fahrenheit  to  tenths
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     startdate = '2018-09-20'
     enddate = '2018-09-21'
-=======
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-    metrics = {'PRCP': 'PrecipInches',
-               'TMAX': 'TempF',
-               'SNOW': 'SnowfallInches',
-               'SNWD': 'SnowAccumInches'}
-    startdate = '2018-08-01'
-    enddate = '2018-08-31'
-<<<<<<< HEAD
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
 
     data = setup_request(startdate, enddate)
 

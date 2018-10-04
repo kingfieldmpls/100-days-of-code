@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 import pytest
 
 import noaa_historical as nh
@@ -54,24 +52,3 @@ def test_get_data(setup_request_response):
 # I think this is what's giving the test access to those functions, but hey
 # I still don't really understand __init__.py, but I think when the tips is instantiatied
 # You're gaining access to those methods?
-=======
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-import unittest
-import noaa_historical
-
-
-class TestNOAA(unittest.TestCase):
-
-    def setUp(self):
-        pass
-
-    def tearDown(self):
-        pass
-
-    def test_setupRequest(self):
-        result = 
-<<<<<<< HEAD
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
-=======
->>>>>>> 8385fc367122e629345e204e651cdf1bed54bbe8
