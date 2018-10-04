@@ -206,8 +206,8 @@ if __name__ == "__main__":
     # Or define specific dates. For whatever reason there
     # is a gap in data at the end of 2017 up to 3/15/18
     # Data starts 2010-03-15
-    start = '2018-08-01'
-    end = '2018-09-13'
+    start = '2018-09-13'
+    end = '2018-09-21'
 
     # Use days or star and end
     data = setup_request(startDate=start, endDate=end)

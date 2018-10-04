@@ -160,8 +160,8 @@ if __name__ == "__main__":
 
     # r define specific dates. For whatever reason there is a gap in data
     # at the end of 2017 up to 3/15/18
-    start = '2017-12-01'
-    end = '2018-03-05'
+    start = '2018-03-05'
+    end = '2018-09-21'
 
     data = setup_request(startDate=start, endDate=end)
     rows = get_data(data)

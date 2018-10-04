@@ -13,12 +13,12 @@
 
 ### Day 2: July 29th, 2018 - Sunday
 
-**Today's Progress**: 
+**Today's Progress** 
 * Finished Coursera's University of Michigan Python Course - Course 2: Python Data Structures
 * Started Courera's University of Michigan Python Course - Course 3: Using Python to Access the Web: Weeks 1 and 2
 
 **Thoughts**
-* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardle support any methods. 
+* Got a better sense of how and when to use a tuple. Also learned that a major feature of tuples is that they're much more memory efficient because they hardly support any methods. 
 * Figured out the difference between list.sort() and sorted()
 * Really enjoyed watching interviews with the creators of jQuery and C++ and the "discoverer" of JSON.
 * Also learned about "greedy" and "non-greedy" regex statements
@@ -35,11 +35,11 @@
 
 ### Day 3: July 30th, 2018 - Monday
 
-**Today's Progress**: 
+**Today's Progress** 
 * Finished Coursera's University of Michigan Python Course - Course 3: Accessing the Web: Week 3
 
 **Thoughts**
-* Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit how. 
+* Man was today a slow mover. Got stuck figuring out why set localecho doesn't work how I expect with the wonky Windows Telnet client, and then went down a Python documentation rabbit hole. 
 * Networking still confuses the hell out of me. I think it's largely a vocabulary issue. I want to unlock the mysteries, but I also question the usefulness considering how many amazing shortcuts already exist to do the tasks we want to do.
 
 **Questions**
@@ -50,7 +50,7 @@
 
 ### Day 4: July 31st, 2018 - Tuesday
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed the lectures, quiz and one of the two activities for "Using Python to Access Web Data"
 * I'll need to finish up the second example and then reviewing to take any other questions down and make sure I understand what it is I'm doing.
 
@@ -68,7 +68,7 @@
 * [More Day 4 Exercises](exercises/day4a.py)
 
 ### Day 5, August 1st, 2018 - Wednesday:
-**Today's Progress**: 
+**Today's Progress** 
 * Completed BeautifulSoup activities from "Using Python to Access Web Data"
 * Completed the XML chapter from "Using Pything to Access Web Data"
 
@@ -85,7 +85,7 @@
 
 ### Day 6, August 2nd, 2018 - Thursday
 
-**Today's Progress**: 
+**Today's Progress** 
 * Finished course 3 "Using Python to Access Web Data" in the Coursera Python speciality. 
 
 **Thoughts**
@@ -102,7 +102,7 @@
 
 ### Day 7, August 3rd, 2018 - Friday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed chapter 1 and part of chapter 2 of "Using Databases with Pythong"
 
 **Thoughts**
@@ -117,7 +117,7 @@
 
 ### Day 8, August 4th, 2018 - Saturday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed the "Basic SQL" portion of Coursera's "Python for Everybody".
 
 **Thoughts**
@@ -133,7 +133,7 @@
 
 ### Day 9, August 5th, 2018 - Sunday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed the second SQL chapter from "Python for Everybody" - minus the db example.
 
 **Thoughts**
@@ -147,7 +147,7 @@
 
 ### Day 10, August 6th, 2018 - Monday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed practical example for Coursera/Python/SQL. 
 
 **Thoughts**
@@ -161,7 +161,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 11, August 8th, 2018 - Wednesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Complete "Many to Many Relationships in SQL"
 
 **Thoughts**
@@ -175,7 +175,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 12, August 9th, 2018 - Thursday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Completed course 4, "Using Databases with Python", which just leaves the capstone.
 
 **Thoughts**
@@ -189,7 +189,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 13/14, August 10th/11th, 2018 - Friday/Saturday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Man, Fridays are a thing, eh? I crashed hard just after the one hour mark. Completed most of the lectures for the capstone project week 2. 
 
 **Thoughts**
@@ -204,7 +204,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 15, August 12th, 2018 - Sunday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Ok, now we're starting to have fun. I did complete the "Spidering and Modeling Email Data" chapter, but who seriously cares? Way, way, way too passive. I'm still trying to glean what I can from reading the code and watching the walk through examples, but it's really not super helpful.
 * Began in earnest on my Minnehaha Creek watershed app. This is going to be fun. I read all of the USGS documentation during nap time, and tonight successfully read in and parsed all of the info I need.
 
@@ -223,7 +223,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 16, August 13th, 2018 - Monday:
 
-**Today's Progress**:
+**Today's Progress**
 * Now we're cooking with gas. Minnehaha Creek data from USGS is all plumbed up and writing to the database, and I think all of the functionality I want (pretty much) is there. The one addition might be to look at last updated for the runs. I also would consider refactoring into OOP just for funzies, not because it actually does any work for me.
 * I also identified NOAA as the source of my weather data. It turns out NOAA is the data source behind the national service and they have a fairly robust API available for free. It took quite a bit of time to figure out which values I needed to grab, but I did eventually get it done. I need to work out how pagination is going to work and then I can write everything to the database.
 
@@ -239,7 +239,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 17, August 14th, 2018 - Tuesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Got openweather api and dark sky api weather hooked up to the db
 * Spent a lot of time reading about capabilities and different methodologies. It's obvious NOAA rules them all.
 
@@ -262,7 +262,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 18, August 15th, 2018 - Wednesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Did some prioritizing on the creek project
 * Read more docs on weather APIs
 * Read Beautiful Soup docs and tried desperately to quickly grab table data
@@ -283,7 +283,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 19, August 16th, 2018 - Thursday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Got Selenium up and running
 * Scraped the data I was looking for
 
@@ -301,7 +301,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 20, August 17th, 2018 - Friday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Successfully grabbed WU data from the website and wrote to the DB
 * Did some datetime magic, and figured out how to use a Firefox profile with add-ons installed
 
@@ -323,7 +323,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 21, August 18th, 2018 - Saturday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Cooking with gas with the weather scraper. Grabbed a whole year with no crashes. Added some exception handling.
 * Watched videos on lambda functions, map functions and history of recursion
 
@@ -338,7 +338,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 22/23, August 19th/20th, 2018 - Sunday/Monday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Flask, Pyramid and Django examples and reading. I still like Flask
 * Spent more time in Plotly and legit figured out where they store the JSON and Python. My goodness. Got a decent looking multiple axis chart together.
 * Got WU updated since 2010
@@ -362,7 +362,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 24/25, August 21st/22nd, 2018 - Tuesday/Wednesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Finished plumbing NWS
 * Learned about PHP role based access control
 * Setup linting with Flake8
@@ -386,7 +386,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 26, August 24th, 2018 - Friday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Playing with refactoring some code
 * Testing performance a couple of ways
 * Learning some basics about importing, like how sys.path is resolved
@@ -410,7 +410,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 27, August 25th, 2018 - Saturday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Big lessoned learned, if you're calling a script directly, you can't traverse above it's current directly unless you've defined it in PYTHONPATH or sys.path. If you start something higher up the hierarchy and that file need to import back up the tree, you can do that, but it's best to use absolute imports and walk all the way back down the tree
 * It seems so simple now, but running a file directly just imports it as "__main__". That's all.
 * Flake8 throws a redefinition error if I reassign something I've imported from another module (function, variable, etc)
@@ -429,7 +429,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 28-30, August 26th - 28th - Sunday - Tuesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Reading up on generators, decorators and context managers - thanks PyCon AU 2018
 * Using PIL and Tesseract
 * Using help('string') is like being in the help interface and issuing a command - neat
@@ -452,7 +452,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 31, August 29th, Wednesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Got the new version of Tesseract 4 running!
 * Learned how to basically use GIMP
 * Spent time in Wand and pytesseract learning more of the libraries
@@ -474,7 +474,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 32/33, August 30th/31st, Thursday/Friday:
 
-**Today's Progress**:
+**Today's Progress**
 * Finally wrapped up turning all my imperative statements in one NOAA script into functions. It didn't actually add any performance, but it helped me get more practiced in this sort of design. My brain is coming around.
 
 **Thoughts**
@@ -493,7 +493,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 34/35, September 1st/2nd, Saturday/Sunday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Cory Schafer is just the absolute best. I watched both of his videos on logging 1+ times.
  * https://www.youtube.com/watch?v=jxmzY9soFXg
 * Read the "Basic Python tutorial" and other major portions from Python.org documentation
@@ -522,7 +522,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 36/37/38, September 3rd/4th/5th, Monday/Tuesday/Wednesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Learning about unittest
 * Requires test_[moduleName]
 * Read through pytest - seems better
@@ -548,7 +548,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 39, September 6th, Thursday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Ran the rest of the Creek daily
 * Began refactoring WU historical
 
@@ -564,7 +564,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 40, September 8th, Saturday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Refactored last bit of the original code for WU
 * Used urllib instead of Requests to encode URLs because I didn't actually want to make a GET request to the page, I just wanted to the encoded URLs
 
@@ -582,7 +582,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Days 41-43, September 9th-11th, Sunday-Tuesday:
 
-**Today's Progress**: 
+**Today's Progress** 
 * Tried to figure out a command line progress bar - minimal progress
 * Compacted the database
 * Did some creek hourly clean-up
@@ -599,7 +599,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 44, September 12th, Wednesday:
 
-**Today's Progress**:
+**Today's Progress**
 * Going through Corey Schafer's OOP tutorials. Helpful!
 * Important info on using super(). to extend classes but keep the code DRY and reuse parent code
  * Python OOP Tutorial 4: Inheritance - Creating Subclasses
@@ -614,7 +614,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 45, September 13th, Thursday:
 
-**Today's Progress**:
+**Today's Progress**
 * Attended Python Meet-up at Buzzfeed
  
 **Thoughts**
@@ -629,7 +629,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 46, September 15th, Saturday:
 
-**Today's Progress**:
+**Today's Progress**
 * Tough to fit in much with a busy start to the weekend and a show that night, but I got an hour of Corey Schafer and configuring my Sublime environment.
 
 **Thoughts**
@@ -638,7 +638,7 @@ Need to review the data validation rules for different SQL implementations in or
 
 ### Day 47, September 16th, Sunday:
 
-**Today's Progress**:
+**Today's Progress**
 * Had to setup my Macbook since I left my laptop at work. Not too painful, and good to see how quickly I could apply what I learned to the Mac OS.
  * In the process of setting up the Mac I learned about soft links and what python v. python3 and pip v. pip3 are things
  * Setup new builds in Sublime text
@@ -665,3 +665,355 @@ Need to review the data validation rules for different SQL implementations in or
 
 **Link(s) to work**
 [More or less the final version for now](exercises/creek/procedural)
+
+### Day 49, September 18th, 2018 - Tuesday:
+
+**Today's Progress**
+* Reflecting and gearing up for the second half
+
+**Thoughts**
+* Wrestling a little bit with where to go from here. I think I'll take a little break from Coursera. Here are the things I said I'd like to learn in my intial Tweet:
+  * Goals: 
+   1. Gird loins - CHECK
+   2. Complete Coursera University of Michigan Python course (currently Course 2: Week 5) - CHECK
+   3. Complete 100 Days course from @pybites and @TalkPython (I’m getting a running start) 
+   4. Discover 20 new (to me) libraries - I should try to list these out, I bet I'm getting somewhat close. Ok, actually I need a new goal. I've just completely blown that one out of the water. Here's the list so far - plus a wrote a script to keep checking on my progress:
+    1. import bs4
+    1. import codecs
+    1. import csv
+    1. import datetime
+    1. import dateutil
+    1. import json
+    1. import logging
+    1. import math
+    1. import pathlib
+    1. import os
+    1. import re
+    1. import requests
+    1. import socket
+    1. import sqlite3
+    1. import ssl
+    1. import string
+    1. import sys
+    1. import time
+    1. import unittest
+    1. import urllib
+    1. import webdriver
+    1. import xml
+    1. import zlib
+   * Of the above, I think I have some depth (relative) of knowledge about 9
+ * Taking a hot minute to re-orient for the back half of the challenge
+* Other things on the bucket list:
+ * This University of Michigan Data Science Course
+  * https://www.coursera.org/specializations/data-science-python#courses
+ * This IBM Data Science Course
+  * https://www.coursera.org/specializations/ibm-data-science-professional-certificate
+ * Picking up where I left off with Treehouse
+  * Flask course - https://teamtreehouse.com/library/type:course/q:python
+ * Google TensorFlow thing
+  * https://developers.google.com/machine-learning/crash-course/
+ * Setting up a Python development environment
+  * https://www.youtube.com/watch?v=xFciV6Ew5r4
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 50, September 19th, 2018 - Wednesday:
+
+**Today's Progress**
+* Pulled the trigger on Talk Python to Me's 100 days of code program
+* Learned about os.walk and then immediately decided pathlib is much, much easier to understand and use
+* Creating a script to look at every library I import to help answer some of the above questions
+* You can use list(dictionary or generator) to create a list from that object.
+* Reviewed list comprehensions ... again
+* Using pipenv to try and manage dependencies for this TPTM course
+* Learning about the Mac terminal and alias to simplify python3 and pip3
+* Got homebrew all setup
+* Basically just learning more about using my mac at a high level
+
+**Thoughts**
+* So excited to dive into Jupyter notebooks
+* Still want to review the PSF Python tutorials
+* I really hope this course offers enough challenge and hammers home a lot of things I've been working on and techincally understand, but haven't worked with enough to really have reinforced
+* Add PyBites slack
+
+**Questions**
+* Really curious to learn a lot more about homebrew
+* learn more about sudo and chmod
+* learn move about unix command line in general, like how > dumps the contents of something into something else
+* why did homebrew just install python again? Now do I have 3 version of python on my machine? What the hell is going on here?
+* Oh man, this mystery Python 3.7 is confusing
+* Ok, I found the cellar, and updates the .bash_profile to set usr/local/bin, but I'm still so confused
+* Need to learn more about homebrew link and the flags - that's what eventually did it for python
+* Why does launch terminal in folder not follow my terminal preferences?
+* Is there still a sneaky version of python 3.6 somewhere on my mac?
+* Did I mention wanting to learn more about mac shell yet?
+
+**Link(s) to work**
+
+### Day 51, September 20th, 2018 - Thursday:
+
+**Today's Progress**
+* Completed days 1-3 of Talk Python course
+
+**Thoughts**
+* The .seconds attribute in a timedelta object only refers to the hours value and not the days value. Interesting.
+* There's really only a few attribute in datetime, date and timedelta objects. You have to keep track of which positional arguments are where when dealing with the input and output.
+* Actually really happy with this approach so far. 
+* There is a difference between readline() and readlines()
+* This list comprehension solve for Bite 7 - so good!
+* Really happy with the level of challenge
+
+**Questions** 
+* Set Sublime default to 4 spaces
+* Global and local scope in functions. How come I can append to a global list but change re-assign a global variable without first invoking the global keyword?
+
+**Link(s) to work**
+Not sure how to link to a different repo - I'll figure it out
+
+### Day 52, September 21st, 2018 - Friday:
+
+**Today's Progress**
+* Basically lots of no progress on pomodoro
+* I wrote 160 lines of code, but it's not fully functioning because I kept changing my mind on how to structure the functions and also kept add features.
+
+**Thoughts**
+* Figure out what's in a function and what's in what function is super confusing for me. That thoughts process can be interminable, but also interesting and challening.
+* I need to move on to the next day and come back to pomodoro, but I hope I'm not creating a back log for myself.
+
+**Questions** 
+
+**Link(s) to work**
+Link to Pomodoro once I figure that out
+
+### Day 53, September 22nd, 2018 - Saturday:
+
+**Today's Progress**
+* Back into day 4 - going to have to come back to pomodoro
+* New vocabulary
+ * Things from the Collections module
+  * NamedTuple - It's sort of like a dictionary with key value pairs, except they're tuples and you can reference the values using dot notation on the keys. It's like defining a class without methods.
+  * DefaultDict - Build up a nested data structure and avoid key errors - key ares initialized before appending values
+  * Counter - My god, it just takes an iterable, there are probably multiple methods, the one we saw is "most_common" and then you pass an argument for how many results you want
+  * Deque - Inserts at both ends of a list - most performant than a normal list
+  * timeit - IPython and Python module for timing small bits of code
+* Getting a few more glimpes inside Jupyter notebooks
+
+**Thoughts**
+
+
+**Questions** 
+* What does a sorted dictionary output?
+* Don't fully grok "key=lambda x: x[1]"
+ * https://dbader.org/blog/python-lambda-functions
+ * Ok, thank god, this make sense now I can sleep - https://docs.python.org/3/howto/sorting.html
+
+**Link(s) to work**
+
+### Day 54, September 23nd, 2018 - Sunday:
+
+**Today's Progress**
+* Working on PyBites Challenge 13. Cheating quite a bit, but still doing it myself and learning. Reading the docs but also referencing the Jupyter notebok.
+* csv.DictReader uses the first line of a CSV by default to set the keys so you don't have to work about referencing those each time. Seroiusly helpful.
+
+**Thoughts**
+
+
+**Questions** 
+
+
+**Link(s) to work**
+
+### Day 55, September 24th, 2018 - Monday:
+
+**Today's Progress**
+* You can pass lots of objects into a named tuple, not just a string of keys with spaces between them. You can pass a tuple, a list, etc. Direct quote from PSF 
+ * "The field_names are a sequence of strings such as ['x', 'y']. Alternatively, field_names can be a single string with each fieldname separated by whitespace and/or commas, for example 'x y' or 'x, y'."
+ * Packing and unpacking tuples now makes sense too:
+```
+    >>> b = ("Bob", 19, "CS")    # tuple packing
+    In tuple unpacking, the values in a tuple on the right are ‘unpacked’ into the variables/names on the right:
+    >>> b = ("Bob", 19, "CS")
+    >>> (name, age, studies) = b    # tuple unpacking
+    >>> name
+    'Bob'
+    >>> age
+    19
+    >>> studies
+    'CS'
+    >>> for director in d:
+    ...     for item in d[director]:
+    ...         print(item.score)
+```
+
+**Thoughts**
+* Fail at getting my lists separate for calculating mean
+
+
+**Questions** 
+
+
+**Link(s) to work**
+
+
+### Day 56, September 25th, 2018 - Tuesday:
+
+**Today's Progress**
+* Just putting time against understanding directors.py solution as well as defaultdict, namedtuple and counter. Deque is sort of falling my the wayside here.
+
+**Thoughts**
+* Talk Python to Me is really the greatest challenge yet. I thought I was going to breeze through the early days, but really by the time I get to the practical stuff there is a lot of reading the PSF docs, rewatching the tutorials, checking out the PyBites challenge repo and experimenting in the command line that takes place to facilitate something that feels like learning.
+
+**Questions**
+* I don't totally understand the square bracket notation for counter:
+```
+    # Counter w/ helper function
+            cnt = Counter()
+            for director, movies in directors.items():
+                if len(movies) >= MIN_MOVIES:
+                    cnt[director] += _calc_mean(movies)
+```
+* I don't really understand anything about this string formatting mini langauge
+ * https://docs.python.org/3/library/string.html#formatstrings
+
+**Link(s) to work**
+* Link to directors.py, again once I figure out how markdown works cross-repo
+
+
+### Day 57, September 26th, 2018 - Wednesday:
+
+**Today's Progress**
+* Completed the directors PyBite challenge. Just a little formatting to round things out. It's not totally polished, but that can be a task for another day. I'm excited to keep on expanding those horizons in the near future.
+* Did my Day 6 task which was just to pracice counter, defaultdict and namedtuple on my own. Still a little hazy on how to thing of these collections first, but definitely have a handle on using them from a technical perspective.
+
+**Thoughts**
+* Deque can just be used instead of a list.
+
+**Questions** 
+
+
+**Link(s) to work**
+
+### Day 58, September 27th, 2018 - Thursday:
+
+**Today's Progress**
+* Finished days 4-6 vids. Meh.
+
+**Thoughts**
+* What in the world were the Python data structures vids doing? If you can make it through Days 1-3 in collections, you can't possible have use for days 4-6. I'm sure the challenges will be challenge, but holy uneven.
+* Assigning a list sort to a variable isn't going to work out well
+* The sorted method is really awesome and better than list.sort() and accept lots of amazing helper functions for the keys such as len and lambda
+ * https://docs.python.org/3/howto/sorting.html
+ * https://docs.python.org/3/library/functions.html#sorted
+
+**Questions** 
+* Memorize how slicers are exclusive v. indexes are zero. The whole OBOE thing is real.
+
+
+**Link(s) to work**
+
+### Day 59, September 29th, 2018 - Saturday :
+
+**Today's Progress**
+* Just watched the pytest vids
+
+**Thoughts**
+* There was A LOT of stuff I didn't recognize, and the days 2 and 3 challenges are a bit more open ended. This is going to be a hard segment.
+* Seeing all of the examples in vim and not really being familiar with vim also hindered mental dexterity
+
+**Questions** 
+
+
+**Link(s) to work**
+
+### Day 60, September 30th, 2018 - Sunday:
+
+**Today's Progress**
+* Setup the challenges repo
+* Installed pytest and pytest-cov
+* I'm going to get totally stuck just figuring out packaging - I should just dump in the same directory and start to figure out the basic pytest syntax
+* Ok, so what I've done is import packages in the Python interpreter in "interactive" mode. It sounds like there is a lot more to package in terms of what's installed and what's on path - like putting a package somewhere on PATH is going to matter lots and lots
+* Ran a VERY simple pytest using just a single script without any imports
+
+**Thoughts**
+* This resource already saved me - how to stucture your app so pytest works how you expect
+ * https://docs.pytest.org/en/latest/goodpractices.html#test-discovery
+* Possibly also helpful
+ * https://realpython.com/python-modules-packages/
+
+
+**Questions** 
+* What does "installing code" mean for the pidly shit I'm running? Apparently this can be done with virtualenv (probably pipenv) and pip as well. This allows some sort of access to imports that currently have to get hacked together with sys.path stitching and other tom-foolery
+* How is PATH setup on the Linux box, since CodePros is using explicit relative imports
+* Why do you ever need to refer to the current directory using . instead of just using an absolute import?
+* What's the deal with using tox to automate testing?
+* What's a good way to just structure testing, or is it best just to execute from the command line?
+
+**Link(s) to work**
+
+### Day 61, October 1st, 2018 - Monday:
+
+**Today's Progress**
+
+**Thoughts**
+* Using absolute imports going down directories is fine, but moving up directories using explicit relative imports is much much harder to me
+ * https://realpython.com/python-application-layouts/
+* Real Python is being real helpful again. This is a guide on writing unittests for scripts that read from APIs
+ * https://realpython.com/testing-third-party-apis-with-mocks/
+  * Ok, this article is very good and I'm making progress, but I'm not going to make it to Bob's article on fixtures tonight, which means I'm going to fall behind on my 100 days with Talk Python schedule.
+* My goal is to finish test_noaa_historical, which will require using fixtures. I feel like there is no way I can complete that task tomorrow
+* Looking ahead to some future days, it looks like there is a lot more familiar territory ahead (and some totally new stuff as well). I'm starting to lose hope in actually wrapping this project in 100 days, but I think I will be able to crawl back somewhat.
+
+**Questions** 
+
+**Link(s) to work**
+* Link to my pytests
+
+### Day 62, October 2nd, 2018 - Tuesday:
+
+**Today's Progress**
+* Tests are supposed to be independent so you can run them in any order
+* I got a fixture working!
+* Watched classes vods and fixed game so you can actually win
+
+**Thoughts**
+* I honestly need to watch Corey Schafer's OOP vods again
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 63, October 3rd, 2018 - Wednesday:
+
+**Today's Progress**
+* Finished the rock, paper, scissors game. It totally works, but there is still so much functionality to you could add, it all just seems like a pain in the ass when I'm not really learning anything new by doing it. 
+* I extended the intial class to accomodate 15 way rock paper scissors, and that seemed to work pretty well
+* Videos for list comprehensions and generators
+* The lesson learned with generators is basically that anything you create an empty list and then you're appending items to that list one by one, you could just create a generator. Generators are also way faster over across massive data sets.
+* Completed day 2 activities
+* Completed by 5 and 26
+
+**Thoughts**
+* Try to do the same thing I just did writing this 15 way dict by hand just using Python to create the output.
+ * It was easy to get an ordered dict, but the logic wouldn't have worked the same way, so I still would have needed to write more code to get the same exact output
+ * It would be great to try to force myself to think in terms of lambda functions
+
+**Questions** 
+* Challege 11 is about the UNIX pipeline, which I think I'll skip for now. It's relevant, it just represents a rabbit hole I don't want to go down at this exact moment. What's funny, is that I already built basically this exact same script earlier
+ * https://en.wikipedia.org/wiki/Pipeline_(Unix)
+ * https://pybit.es/generators.html
+* Ok, I'm changing my mind. Maybe I should rewrite by 100 libraries now based on using generators and comprehensions, plus I could also add in the logic about the different syntax you can use for importing
+* Ok FINE I'll come back to challenge 11 before moving on - and I'll read the damn article
+
+**Link(s) to work**
+
+### Day , , 2018 - :
+
+**Today's Progress**
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
