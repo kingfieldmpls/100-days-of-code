@@ -1003,17 +1003,699 @@ Link to Pomodoro once I figure that out
 * Challege 11 is about the UNIX pipeline, which I think I'll skip for now. It's relevant, it just represents a rabbit hole I don't want to go down at this exact moment. What's funny, is that I already built basically this exact same script earlier
  * https://en.wikipedia.org/wiki/Pipeline_(Unix)
  * https://pybit.es/generators.html
-* Ok, I'm changing my mind. Maybe I should rewrite by 100 libraries now based on using generators and comprehensions, plus I could also add in the logic about the different syntax you can use for importing
+* Ok, I'm changing my mind. Maybe I should rewrite my 100libraries.py now based on using generators and comprehensions, plus I could also add in the logic about the different syntax you can use for importing
 * Ok FINE I'll come back to challenge 11 before moving on - and I'll read the damn article
 
 **Link(s) to work**
 
-### Day , , 2018 - :
+### Day 64, October 4th, 2018 - Thursday:
 
 **Today's Progress**
+* After doing some wacky things to my GitHub repo due to large file sizes, it's clear I need to upgrade my Git knowlege.
+ * Commands beyond add, commit and push
+ * Using .gitignore
+* Read generator articles from PyBites - also read an itertools article linked from the generators article
 
 **Thoughts**
 
 **Questions** 
 
 **Link(s) to work**
+
+### Day 65, October 6th, 2018 - Saturday:
+
+**Today's Progress**
+* Read the Pipeline (Unix) Wikipedia article.
+* Reviewed challenge 11 - changed my mind again, but I know basically how I would use a generator in the future
+* Watched itertools videos
+* Played with zip
+* Generators only play through once, then they're exhausted
+* Any object with a __iter__ magic method is iterable, check out dir(object)
+* There's also an iter() method built into Python to call this method
+* cycle just creates an infinite loop of an iterable
+* product is cartesian product
+ * https://en.wikipedia.org/wiki/Cartesian_product
+ * It's positional, so it doesn't dedupe
+* Permutations and combinations seems like something I should have used recently. Combinations is just all of the possible combinations, regardless of order, and permutations is every posssible combination in all possible orders.
+
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 66, October 7th, 2018 - Sunday:
+
+**Today's Progress**
+* Cracked 2 itertools bites, that were rather easy
+* Got stuck on the 3rd after referencing the tests. Once again, I built something that I think actually works, but didn't pass the tests. Sometimes the instructions aren't perfectly clear. After reading the tests, now I know that I need to generate words from any length within a given string. I think I could actually do this with regex, but I believe the bite wants me to solve it with product. Got tired, so starting here tomorrow.
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 67, October 8th, 2018 - Monday:
+
+**Today's Progress**
+* Basically just beat my head against bite 65 all night, trying to take a list of letters and see what words from the dictionary are contained in those letters rearranged in any combination
+* I had lots of false starts using product, and even found a couple of solutions which sort of worked, but either took a long time to process and overflowed the stack
+* Ultimately, I remembered that permutations takes a second argument that lets you specify how many items from the original set to run permutations on.
+* I'm a little salty that the ultimate sample solution harded coded the number of items in the string, that's kind of cheating
+* One thing from the final answer which I thought was really elegant was using set & set to just get the shared members of the dictionary and the permutations. That's a smart solution that I never would have thought of.
+* Overall, this was easily the most challenging bite so far.
+
+**Thoughts**
+* I still don't really have my head wrapped around generators being passed to other functions and just running. I need to do more of that hands on to understand.
+ * Think I got it. You trade a for loop now for a for loop later.
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 68, October 10th, 2018 - Wednesday:
+
+**Today's Progress**
+@wraps makes sure that if you are putting a decorator on a function, you still get the wrapped function's docstrings back, otherwise you'd get the decortors docstrings(?) since that's the function that is be instantiated first.
+* Watched decorator vids
+* Completed Bite 22
+* Read these articles:
+ * https://pybit.es/decorators-by-example.html
+ * https://pybit.es/decorator-optional-argument.html
+ * https://realpython.com/primer-on-python-decorators/
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 69, October 12th, 2018 - Friday:
+
+**Today's Progress**
+* Back at decorators article from Real Python
+* This snippet
+ * Three conversion flags are currently supported: '!s' which calls str() on the value, '!r' which calls repr() and '!a' which calls ascii().
+ * https://docs.python.org/3.7/library/string.html?highlight=string#module-string
+* Holy, just realized "unsigned" means positive because it means it is un (positive or negative) signed.
+* Also curious to play more with Format Specification Mini-Language - which is the formatting syntax that starts with ":"
+* You can enforce this with the special * syntax, which means that all following parameters are keyword-only:
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 70, October 13th, 2018 - Saturday:
+
+**Today's Progress**
+* Wrote a decorator of highly questionable value, it checks if a database table exists each time it runs. It would actually be better to decorate the "main" function with this decorator it just occurred to me. Anyway, it works and I have some basic concepts down so I'm moving on.
+
+**Thoughts**
+* This TalkPython course is going to take me well past 100 days. I think I'll keep on but then turn down the accountability piece a bit. I want to re-orient myself in all of my notes and set a plan forward for my next actual project.
+* So, came across pathlib again yesterday. So weird. It's only been a couple of weeks since I spent an hour figuring it out, I recognized the library name, but didn't really remember how to do anything. I'm sure it would come back to me, but is this survey still moving too fast? Do I actually just need to use one thing at a time long enough to regard it as an old friend before moving on?
+
+
+**Questions**
+* What are my "triggers" for "this would be a good place to write a decorator"?
+
+**Link(s) to work**
+wu_historical
+
+### Day 71, October 14th, 2018 - Sunday:
+
+**Today's Progress**
+* Using try/except on NOAA scripts. I think I figured out basic Requests exception handling. I also saw that it's relatively easy to just figure out eveything that might break. 
+* There seems to be a try block where the exception isn't being caught by except just naked and I really have no idea why. It doesn't actually make any sense to me
+* This article is helping:
+ * https://realpython.com/python-exceptions/
+
+**Thoughts**
+* ZOMG, I didn't realize that the try catch was working, but logging.exception was doing something different than I thought. Sometimes I'm still a real dumb dumb
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 72, October 16th, 2018 - Tuesday:
+
+**Today's Progress**
+* Finished getting stuff in NOAA historical properly setup for catching exceptions
+* This section of requests was super helpful, but I still needed a trusty example for SO to totally understand what the raise_for_status() method was up to - http://docs.python-requests.org/en/latest/user/quickstart/#errors-and-exceptions
+* I generally feel comfortable using try/except, but I don't really have a clear framework in my mind for where to put all of the blocks.
+* You can throw a "raise" at the end of an except block to re-raise and exception after you've done some other stuff to deal with the exception
+* "else" runs code after except if try didn't raise and exception
+* "finally" performs the clean up bit and just run regardless of whether an exception was thrown or not - if you re-run the exception, finally just first before the exception - which makes sense
+
+**Thoughts**
+* logging.exception pastes the message along with the element - https://docs.python.org/3/library/logging.html
+
+**Questions** 
+* At what level to folks typically log their exceptions? You can use "exception" but then it writes the whole damn Traceback. I'm using error now, which seems good.
+
+**Link(s) to work**
+
+### Day 73, October 17th, 2018 - Wednesday:
+
+**Today's Progress**
+* Watched regex videos
+* Search and match
+ * Match needs to match a whole string
+ * Search can match a substring
+* Always use rawstrings so you don't have to escape as much junk
+* Using () or (?) will set capturing and non-capturing sets
+* re.compile lets you save a statement object into a variable, and then you can just operate on the variable
+* re.VERBOSE is a flag that ignores comments and spaces so you can split out the whole regex and add comments for readability, because they can get very complicated.
+
+
+**Thoughts**
+* String methods like "startswith", "endswith", "contains" and even just good old "in" cna be used in a lot of situations, so don't forget dir(str) methods
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 74, October 18th, 2018 - Thursday:
+
+**Today's Progress**
+* Read https://pybit.es/mastering-regex.html
+* Watched Al Sweigart's PyCon talk
+ * https://www.youtube.com/watch?v=abrcJ9MpF60&feature=player_embedded
+  * Compile -> Search -> Do something with group method
+  * The basic regex syntax is pattern => qty
+  * Video is a really solid foundation
+  * No ? for greedy, ? for not greedy
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 75, October 20th, 2018 - Saturday:
+
+**Today's Progress**
+
+**Thoughts**
+* findall still seems like the most useful thing to every use. Match makes sense if you're looking at well defined strings. Search returns a search object, which then you need to do something with whereas findall just gives you everything.
+ * Oh yeah, use group, just like the awesome YouTube PyCon talk above suggests
+* This is a clever piece of engineering
+ * >>> tweet = 'New PyBites article: Module of the Week - Requests-cache for Repeated API Calls - http://pybit.es/requests-cache.html … #python #APIs'
+ >>> re.findall(r'((?:#|http)\S+)', tweet)
+ ['http://pybit.es/requests-cache.html', '#python', '#APIs']
+
+**Questions** 
+* I wanted to pass something like [0].ul.li.li - the end part of a beautiful soup index/method, but store that stuff in a dictionary and tack it onto the end at a later date. I can definitely store the whole object in the dictionary as a string and then just run eval() on it when I'm ready to use it. I'm pretty sure the answer is just something like, you should never try to store that kind of information in a dictionary, but I'm still just curious how you would do that if you absolutely had to. Maybe store the rest of the first part of the object as a string too and then concatenate the whole thing and then evalute that? Probably easier just to think of a different way to solve the problem - like write a function that handles returning the beautiful soup object - or even the response.
+
+**Link(s) to work**
+
+### Day 76, October 21st, 2018 - Sunday:
+
+**Today's Progress**
+* Completed challenge 42
+* Made an honest effort at understanding both sub and backreferences, with progress
+* Read a decent portion of the HOWTO article
+* Executed PyTests without needing to lookup how to do it!
+
+**Thoughts**
+* More useful than the regular docs
+ * https://docs.python.org/3/howto/regex.html
+* I finally realized that sub is not at all like search or findall in terms of how it returns a string. It's going to return the whole string no matter what, it's just going to also replace something that matches a pattern. Adding in period asterix dollar sign (not sure what those were destroying my markdown) just means capture the rest of the string, whatever it is, and then replace the whole thing with whatever I want. Makes sense for this code challenge. I also have a better understanding now for why backreferences and subs are the one-two punch for making changes in a text.
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 77, October 22nd, 2018 - Monday:
+
+**Today's Progress**
+* Watched logging videos
+* Introduced to logbook library, created by creator of Flask - so that's a positive
+
+**Thoughts**
+* Still don't totally understand the diffrence between print and stdout. When does print not write to stdout?
+* Funny that MK uses the "TRACE" level which is in logbook but not in the standard library logging module. Just seems kind of strange, especially without some sort of explanation.
+
+**Questions** 
+* I'll need to read the logbook documentation to feel like I got something out of this series of days.
+ * https://logbook.readthedocs.io/en/stable/index.html
+* What's my default stderr handler?
+* Why am I not seeing Trace in the documentation?
+
+**Link(s) to work**
+
+https://docs.python.org/3/library/typing.html
+
+### Day 78, October 23rd, 2018 - Tuesday:
+
+**Today's Progress**
+* Working on replacing my existing logger with logbook in the canoe app
+* I need to set bubble=True to use multiple handlers - just a different flow than the stdlib
+
+**Thoughts**
+* Maybe logbook makes a lot of sense for if you really know what the hell you're doing with logging, it certainly isn't easier to setup than Python's standard logging with the provide documentation
+* Just adding multiple loggers is quite confusing
+* Examples are helpful to me, and there aren't the sorts of examples present that really get me off the ground
+* There are type hints in this example function MK writes, but that isn't explained and the colons in the parameters were super confusing. After taking a moment to orient myself to type hints, they actually seem pretty great, it's just, a little heads up pls.
+ * https://docs.python.org/3/library/typing.html
+* Ok, I figured it out. I learned some stuff. I do trust the core developer, but also standard logging still sort of makes more sense to me. I'm sure logbook is more performant, but if I don't really understand how it works, I'm not that sure how it helps me.
+
+**Questions**
+* How can you format the timestamp that comes out of logbook?
+ * https://logbook.readthedocs.io/en/stable/api/utilities.html
+* How can you add multiple handlers?
+ * Yes, you have to use the bubble flag
+
+**Link(s) to work**
+
+### Day 79, October 29th, 2018 - Monday:
+
+**Today's Progress**
+* Watched Refactoring/Pythonic Code videos
+ * It was pretty comforting that most everything today was review. Not that the most Python solution always comes straight away, but it was great to reiterate that I do actually know how to do some stuff in the most efficient way
+
+**Thoughts**
+* Ok, that was BY FAR the longest gap I've ever had in days. I'm going to forgive myself and move on. There were a couple of opportunities, for sure, but also a string of not being able to work at night, which has been my practice and preference. The one bright spot is that I've had more time - especially last Thursday and Friday to solve real problems at work using Python. I've been submitting pull requests, adding logging and handling exceptions as well as working with parent/child class over-riding and super() methods. So it's been good, but now it's time to get back at it.
+
+**Questions** 
+* I need to practice writing lambda functions
+* Still need to read PEP8 end to end
+ * PEP8.org sounds like a thing worth checking out - written by Kenneth Reitz!
+* Ok, it basically sounds like if you don't have an __init__.py file then you need to add your scripts to PATH
+
+**Link(s) to work**
+
+### Day 80, October 30th, 2018 - Tuesday:
+
+**Today's Progress**
+* Pretty much just read a bunch of the resources of the Jupyter notebook on refactoring and then stared at NOAA for a while without really making many changes. I got stuck on questions like "where should a make my db connection" and "why does RC's manager.py code just live in one massive chunk?"
+
+**Thoughts**
+* Read 
+ * https://realpython.com/python-logging/
+ * https://pybit.es/python-packaging.html
+ * https://realpython.com/python-modules-packages/
+ * https://pybit.es/beautiful-python.html 11:11
+ * https://stackoverflow.com/questions/193161/what-is-the-best-project-structure-for-a-python-application/193181#193181
+ * https://realpython.com/python-application-layouts/
+ * https://medium.freecodecamp.org/how-to-become-a-git-expert-e7c38bf54826
+
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 81, November 2nd, 2018 - Friday:
+
+**Today's Progress**
+* Watched 'Using CSV Data' videos
+* The use of dictreader + namedtuple to handle CSV files seems clever
+
+**Thoughts**
+* I'm really falling off of the wagon here. I have been spending more time at work coding, which has been nice, but spending much less time, less frequently working on my #100days projects. I also sort of gave up on day 3 of refactoring because I was feeling overwhelmed by sort of starting creek.py from scratch. I want to come back to these lessons when I'm at that point. I think I sort of got the points I needed to get but didn't take the time to really put them into practice.
+
+**Questions**
+* I don't really understand the utility of type hinting if you're not using PyCharm or some other IDE that makes sense of that input
+* Are there easier ways to convert CSV strings into data types than manually assigning one at a time?
+
+**Link(s) to work**
+
+### Day 82, November 3rd, 2018 - Saturday:
+
+**Today's Progress**
+* Grabbed a Star Wars data set from 538
+* Learning lots:
+ * Needed to bring in the codecs library to open the Star Wars data set because of some funky, not UTF-8 characters
+ * The Python docs tell you this, but you should add newline='' is csv readers and writers when working with an actual file in memory
+* Progress upon progress - I used namedtuples, list unpacking, and a list comprehension to do what I wanted to do succinctly, correctly and in a Pythonic way. I was actually able to logic myself from beginning to end on that one.
+
+**Thoughts**
+
+**Questions**
+* Why is it so hard for me to find the actual list of params the csv objects take?
+
+**Link(s) to work**
+
+### Day 83, November 5th, 2018 - Monday:
+
+**Today's Progress**
+* Used itertools.chain (eventually removed)
+* Turned counter objects into dicts and used those dicts to write the f strings to present the final info
+* Wrote fairly eloquent functions to handle the output across any data set
+
+**Thoughts**
+* OMFG getattr() is the way to solve my beautiful soup problem and hand in attributes dynamically
+ * https://docs.python.org/3.7/library/functions.html#getattr
+
+**Questions** 
+
+**Link(s) to work*** 
+* Completed my 538 data analysis project
+
+### Day 84, November 7th, 2018 - Wednesday:
+
+**Today's Progress**
+* Watched JSON in Python videos
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 85, November 10th, 2018 - Saturday:
+
+**Today's Progress**
+* Listened to Talk Python to Me Podcast
+* Read this Real Python article
+ * https://realpython.com/python-json/
+* Started day 3 of JSON work for #100days, working with the PageSpeed Insights API
+ * https://developers.google.com/speed/docs/insights/v4/first-app
+
+**Thoughts**
+* More practice with collections.defaultdict for adding values to keys that don't exist
+* Need to ingrain lambdas for sorting keys
+
+**Questions** 
+* How do you run a script in interactive mode? What does the -i flag do?
+
+**Link(s) to work**
+
+### Day 86, November 11th, 2018 - Sunday:
+
+**Today's Progress**
+* Listened to several Talk Python to Me and several Python Bites podcasts. I listen to stuff and read news all of the time and don't usually count it toward my daily effort, since it's largely passive, but we were headed home from South Dakota today and it felt like I moderately productive thing for me to do.
+* Read a bunch of the Google API client libraries documentation
+* Successfully setup PageSpeed Insights API
+
+**Thoughts**
+
+**Questions** 
+* Where's the documentation on following my API key's usage when building the service object?
+
+**Link(s) to work**
+
+
+
+### Day 87, November 18th, 2018 - Sunday:
+
+**Today's Progress**
+* Finished properly parsing my PageSpeedsInsights API data. I think I have a better sense of dump v dumps and load v loads now, but I find adding all of the [] when you get into deeply nested responses is always a bit awkward.
+* Watched JSON APIs and Search
+* Successfully put a namedtuple on top of some complicated JSON responses. It would take some work, and you're screwed if anything ever changes, but it's a pretty neat way to deal with data in a more OO feeling way.
+* Read some stuff about Kenneth Reitz controversy with pipenv and his response including some extremely candid info about his mental health struggles.
+
+**Thoughts**
+* Between travel, a back injury, business and Sarah's schedule and general lack of discipline, it was really easy to fall off the wagon. I'm sure I'll still finish. I don't doubt any of the value, but you just realize that you make a lot of progress when you do something every day, and time passes very quickly when you think you'll do something and don't.
+* Cool resource from an interview in "Talk Python to Me" - interesting blog from someone who I kind of identify with. Learning code because it solves a problem, but not being satisfied not knowing how things work. http://alpopkes.com
+* Read about type annotations https://www.python.org/dev/peps/pep-3107/
+* NamedTuples for dictionary parsing seems promising
+* You can also chop slices off of layers of dictionaries (if there are multiple nested dictionaries) by putting a level that you want to access in a variable and then parsing from there.
+* pipes is a solution for viewing all of your pipenv environments
+ * lsvirtualenv does this with virtualenvwrapper
+
+**Questions**
+* Would creating namedTuples from the JSON response make parsing easier? 
+
+**Link(s) to work**
+
+
+### Day 88, November 20th, 2018 - Tuesday:
+
+**Today's Progress**
+* Finished up days 2 and 3 of JSON APIs and search. Pretty simple stuff, but spending more time with namedtuples never hurts.
+* Got the web browser working. Searching Talk Python episodes by topic and then opening a web browser is actually useful. Holy goodness.
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+### Day 89, November 23rd, 2018 - Friday:
+
+**Today's Progress**
+* My big purchase for today was buying a PyBites subscriptions. That and some Hue lightbulbs
+* Watching the Web Scraping with BS4 vids. This one should be a breeze.
+* Created a Netflix db scraper
+* Messing with Requests-HTML to try to render Javascript without using Selenium
+ * Also pretty curious about using the auto pagination
+* Created a parser to just grab ingredients from Food Network
+* Really took the long way around trying to figure our how to just get up to date info on Netflix catalog, and trying to do some Javascript rendering with Request-HTML and also reading more into the underlying package - pypetteer
+
+**Thoughts**
+
+**Questions** 
+* There are a lot of BS4 commands I'm confused about. Like when to use "text" v. "content" and "select" v. "find"
+
+**Link(s) to work**
+
+
+### Day 90, November 24th, 2018 - Saturday:
+
+**Today's Progress**
+* Watched Measuring Performance videos
+* cProfile from command line
+ * python -m cProfile -s cumtime myprogram.py
+* API by importing the profiler
+ * Only enable and disable the profiler around where you want to measure
+
+**Thoughts**
+
+**Questions**
+
+**Link(s) to work**
+
+
+### Day 91, November 25th, 2018 - Sunday:
+
+**Today's Progress**
+* Running cProfile as both a command line module and using the imported funtion. All of Creek stuff is the most complex, but also relies on timing of receiving information from the web APIs as well as the time to write to the database, so I'll be curious to see what comes back.
+* Before    NumCall                 CumTime
+               1    0.003    0.003    0.956    0.956 noaa_historical.py:136(send_to_database)
+              98    0.793    0.008    0.793    0.008 {method 'commit' of 'sqlite3.Connection' objects}
+               1    0.000    0.000    0.547    0.547 noaa_historical.py:59(setup_request)
+* After     NumCall                 CumTime
+               1    0.000    0.000    0.015    0.015 noaa_historical_speed.py:136(send_to_database)
+               1    0.009    0.009    0.009    0.009 {method 'commit' of 'sqlite3.Connection' objects}                     
+               1    0.000    0.000    0.553    0.553 noaa_historical_speed.py:59(setup_request)
+
+
+**Thoughts**
+
+**Questions**
+* There are a lot of underlying processes that I can't control, like api.py and session.py that are only called once and control the underlying sessions (assuming these are from Requests). Is there a convenient way to just look at filename = __file__ ? Is that good design?
+
+**Link(s) to work**
+
+
+### Day 92, November 28th, 2018 - Wednesday:
+
+**Today's Progress**
+* Watched parsing RSS feeds with Feedparser
+* Read the feedparser documentation, did the activities and pulled down a Netflix release RSS feed parser
+
+**Thoughts**
+* It would be cool to put together a database of show we like or are interested in and then get notifications when a show we like has relevant news
+
+**Questions** 
+* I'm closing down all of the windows, so here is a link dump
+ * PyBites article on packaging https://pybit.es/python-packaging.html
+ * Pipenv and virtual environments
+  * https://docs.python-guide.org/dev/virtualenvs/
+ * Books
+  * https://www.amazon.com/dp/1775093301/
+  * https://www.amazon.com/dp/1491946008/
+  * https://www.amazon.com/dp/1491919531/
+  * https://www.amazon.com/dp/1491939362/
+
+**Link(s) to work**
+
+### Day 93, November 29th, 2018 - Thursday:
+
+**Today's Progress**
+* Finished up reading FeedParser documentation and playing around a bit more with yesterday's app
+* Watched "Structured API Clients with Uplink"
+* Read some of the uplink documentation
+
+**Thoughts**
+* Most challening module in a while
+* This video use type annotation and type checking. Those things make sense in the context of PyCharm, but I'm unsure of how they really work otherwise
+* I could still use a crash course on the format specification mini language
+ * https://docs.python.org/3/library/string.html?highlight=format%20specification%20mini%20language#formatspec
+
+**Questions** 
+
+**Link(s) to work**
+
+**Link(s) to work**
+
+
+### Day 94, December 2nd, 2018 - Sunday:
+
+**Today's Progress**
+* Reading all of the gory Uplink documentation
+* Reading this Python article on typing (a thing that Uplink does and I don't really know about)
+ * https://docs.python.org/3/library/typing.htm
+l* Found this nifty Real Python article on 3.7 which includes a solid section on typing
+ * https://realpython.com/python37-new-features/#typing-enhancements
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 94 Part 2, December 5th, 2018 - Wednesday:
+
+**Today's Progress**
+* This day took about an hour, but was sort of a follow up to a partial effort on Sunday. I was able to finish days 2 and 3 of the Uplink module, easily the hardest module I've encountered in weeks. I had to learn about type hinting and type annotations just to understand the Uplink documents. I needed to go back and rewatch some of the videos as well as poke through the example source code. When it was all said and done I still ended up making a lot of errors before I could make it run - mostly from still being fairly uncomfortable with OOP and not putting () where I should be putting (). Still, it was good and I think I was able to basically logic my way through it. The output is rough and could be improved upon, but the program does technically work.
+
+**Thoughts**
+* Really fun to have a challening module again. I feel good about my learning, comprehension and output.
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 95, December 6th, 2018 - Thursday:
+
+**Today's Progress**
+* Watched "Twitter Data Analysis with Python"
+* Learned about using .env files for environment variables to automatically be loaded into pipenv
+* Picked a challenge for the rest of this module - built a Twitter APi web app
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 96, December 10th, 2018 - Monday:
+
+**Today's Progress**
+* Going to get started on building this web app with the Twitter user of my choice
+ * The account I chose was - Netflix US
+ * Installing Postgres
+
+**Thoughts**
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 97, December 17th, 2018 - Monday:
+
+**Today's Progress**
+* So listen, I have been doing stuff, but it's also been a crazy period. Primarily because Barb's house closed permanently last Tuesday. I've been listening to a lot of Python podcasts on the way to skiing, I've been continuing to read articles and poke around on stuff at work. It took me basically two days to get PostgreSQL up and running locally.
+* For today I'm going to consume a bunch of packaging articles and then make some progress on the Twitter web app, with the goal of completing that project on day 100.
+ * https://www.youtube.com/watch?v=CqvZ3vGoGs0
+ * https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+ * https://realpython.com/absolute-vs-relative-python-imports/
+ * https://realpython.com/python-modules-packages/
+ * https://realpython.com/python-application-layouts/
+
+**Thoughts**
+* Some goals for beyond 100 days
+ * Finish Talk Python course
+ * Data science course from University of Michigan
+ * Flask app course with Treehouse
+ * All the PyBites stuff
+ * Working through my Python books
+ * Back to FreeCodeCamp
+ * Working through TensorFlow tutorial hosted by Google
+ * The PSF Python Tutorial FFS
+
+* Starting my thank you list:
+ * Kenneth Love
+ * Dr. Chuck
+ * Michael Kennedy
+ * Bob Belderbos
+ * Julian Sequira
+ * Guido Van Rossum
+ * The PSF
+ * Corey Schafer
+ * Real Python
+ * Stack Overflow
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 98, December 22nd, 2018 - Saturday:
+
+**Today's Progress**
+* Cloned the pytip repo and currently just setting everything up to run. I'm going to make minimal changes at first, and then get into how it all works - changing the Tweepy target, Bottle template and figuring out a little SQLAlchemy and PostgreSQL along the way.
+
+**Thoughts**
+* Got everything into the database, time to learn more about pytest
+ * https://realpython.com/python-testing/
+* Not able to get the tests to work, but I dunno
+ * I think it's because I hadn't installed pytest in the pipenv environment
+ * Yep, that did it
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 99, December 25th, 2018 - Tuesday:
+
+**Today's Progress**
+* Watched videos "Using the Github API with Python"
+* You can run python -m pydoc [name of something] in the terminal to read documentation about that thing
+* When you're not sure what an API returns, you can use pdb to pause the response and inspect it - brilliant
+ * https://pybit.es/pdb-debugger.html
+
+**Thoughts**
+* Listening to Talk Python to Me
+* Reading "Hello World"
+* I'd like to get a little PDB training tomorrow
+* Ideas for last day
+ * Complete the GitHub module
+ * Do a PyBite or two
+ * Send out a long ass Tweet
+ * Drink a beer
+
+
+**Questions** 
+
+**Link(s) to work**
+
+
+### Day 100, December 26th, 2018 - Wednesday:
+
+**Today's Progress**
+* The Plan
+ * Figure out pipenv builds on Sublime
+  * Watching this vid cause Google failed me - https://www.youtube.com/watch?reload=9&v=xFciV6Ew5r4
+  * And this https://www.youtube.com/watch?v=xqcTfplzr7c
+  * Fuckety fuck fuck fuck. I never got it to run, and I'm stuck and frustrated. I just Tweeted and called it a night. Fuck.
+ * Play with pdb
+ * Write something silly with GitHub api
+ * Do a PyBite or 2
+ * Write a long ass thank you Tweet
+
+**Thoughts**
+* Holy fucking shit. I still don't want to be done. Although in some ways I feel like I finished whenever I stopped trying to go daily and everything since then has been "normal"? There are so many challenges left to face, and I still have produced nearly what I would like to even for starters. I still feel like a total noob, but a newb who can find answers.
+* Mint seems like a good Linux distro
+
+**Questions** 
+
+**Link(s) to work**
+
+
+https://itnext.io/become-a-git-pro-in-just-one-blog-a-thorough-guide-to-git-architecture-and-command-line-interface-93fbe9bdb395
+
+
+
